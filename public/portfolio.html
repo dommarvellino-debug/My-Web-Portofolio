@@ -1,0 +1,2067 @@
+<!DOCTYPE html><html class="dark" lang="en" style=""><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"secondary-container":"#1633bf","graphite":"#494a4d","outline-variant":"#444655","on-tertiary-fixed":"#341100","secondary-fixed-dim":"#bbc3ff","on-tertiary":"#562000","outline":"#8f8fa0","on-primary":"#001c95","surface-container-lowest":"#0d0e11","surface-dim":"#121316","surface-container-highest":"#343538","surface-variant":"#343538","on-secondary-fixed":"#000f5d","inverse-surface":"#e3e2e6","on-primary-container":"#ececff","tertiary-container":"#b44b00","on-secondary":"#001d93","primary-fixed-dim":"#bbc3ff","electric-iris":"#455ce9","primary-container":"#455ce9","on-surface":"#e3e2e6","tertiary":"#ffb692","obsidian-canvas":"#1c1d20","error":"#ffb4ab","background":"#121316","on-surface-variant":"#c5c5d7","secondary":"#bbc3ff","on-tertiary-container":"#ffe9e0","inverse-primary":"#364ddb","primary":"#bbc3ff","bone-white":"#ffffff","surface-tint":"#bbc3ff","surface-container-high":"#292a2d","on-primary-fixed-variant":"#1230c4","error-container":"#93000a","tertiary-fixed":"#ffdbcb","deep-iris":"#334bd3","tertiary-fixed-dim":"#ffb692","surface":"#121316","on-secondary-fixed-variant":"#1633bf","on-tertiary-fixed-variant":"#793000","surface-bright":"#38393c","inverse-on-surface":"#2f3033","primary-fixed":"#dee0ff","on-primary-fixed":"#000e5e","surface-container":"#1f1f23","on-secondary-container":"#a4b0ff","fog":"#999d9e","surface-container-low":"#1a1b1e","on-error":"#690005","on-error-container":"#ffdad6","secondary-fixed":"#dee0ff","on-background":"#e3e2e6"},borderRadius:{DEFAULT:"1rem",lg:"2rem",xl:"3rem",full:"9999px"},spacing:{"space-md":"0.75rem","space-xs":"0.25rem","margin-mobile":"1rem","space-sm":"0.5rem","gutter-mobile":"0.75rem","space-xl":"1.375rem","space-lg":"1.125rem",gutter:"0.75rem",margin:"1.5rem"},fontFamily:{"headline-lg":["Inter"],"body-sm":["Inter"],"body-lg":["Inter"],"headline-sm":["Inter"],"label-md":["Inter"],caption:["Inter"],"headline-lg-mobile":["Inter"],"body-md":["Inter"],"headline-xl-mobile":["Inter"],display:["Inter"],"display-mobile":["Inter"],"headline-xl":["Inter"]},fontSize:{"headline-lg":["60px",{lineHeight:"1.07",letterSpacing:"0.05em",fontWeight:"500"}],"body-sm":["14px",{lineHeight:"1.55",letterSpacing:"0.05em",fontWeight:"500"}],"body-lg":["17px",{lineHeight:"1.50",letterSpacing:"0.05em",fontWeight:"500"}],"headline-sm":["33px",{lineHeight:"1.20",letterSpacing:"0.05em",fontWeight:"500"}],"label-md":["12px",{lineHeight:"1.20",letterSpacing:"0.05em",fontWeight:"500"}],caption:["10px",{lineHeight:"1.45",letterSpacing:"0.05em",fontWeight:"500"}],"headline-lg-mobile":["36px",{lineHeight:"1.15",letterSpacing:"0.03em",fontWeight:"500"}],"body-md":["15px",{lineHeight:"1.66",letterSpacing:"0.05em",fontWeight:"500"}],"headline-xl-mobile":["48px",{lineHeight:"1.10",letterSpacing:"0.03em",fontWeight:"500"}],display:["216px",{lineHeight:"1.00",letterSpacing:"0.05em",fontWeight:"500"}],"display-mobile":["72px",{lineHeight:"1.02",letterSpacing:"0.03em",fontWeight:"500"}],"headline-xl":["88px",{lineHeight:"1.06",letterSpacing:"0.05em",fontWeight:"500"}]}}}};</script><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&amp;family=Manrope:wght@400;500;600&amp;display=swap" rel="stylesheet"><style>#hero-name-1,#hero-name-2{font-family:"Bricolage Grotesque","Inter",sans-serif;font-weight:700;letter-spacing:0.015em;}#hero-sub{font-family:"Manrope","Inter",sans-serif;font-weight:500;letter-spacing:0.02em;}@media (max-width:360px){#hero-name-1,#hero-name-2{font-size:42px;}}</style></head><body class="bg-obsidian-canvas text-bone-white font-body-md text-body-md antialiased min-h-screen flex flex-col selection:bg-electric-iris selection:text-bone-white"><header id="site-header" class="fixed top-0 left-0 w-full z-50">
+<div id="header-shell" class="relative mx-auto w-full">
+<div id="header-bar" class="h-20 w-full px-margin-mobile md:px-margin flex items-center justify-between">
+<div class="flex min-w-0 items-center gap-space-sm">
+<span class="truncate font-label-md text-label-md uppercase text-bone-white tracking-widest">© Dominikus Marvellino</span>
+<span class="hidden lg:inline font-caption text-caption text-fog tracking-wider uppercase pl-space-xs">/ 2kMarvin</span>
+</div>
+<div class="flex items-center gap-space-sm sm:gap-space-lg">
+<nav id="site-nav" aria-label="Primary" class="relative hidden items-center gap-space-sm md:flex md:gap-space-lg">
+<span class="nav-pill" aria-hidden="true"></span>
+<a class="nav-link font-body-sm text-body-sm px-1 py-1 sm:px-space-md md:py-space-xs rounded-full" data-path="about" data-target="philosophy-section" href="#philosophy-section">About</a>
+<a aria-current="page" class="nav-link nav-active font-body-sm text-body-sm px-1 py-1 sm:px-space-md md:py-space-xs rounded-full" data-path="work" data-target="work" href="#work">Work</a>
+<a class="nav-link font-body-sm text-body-sm px-1 py-1 sm:px-space-md md:py-space-xs rounded-full" data-path="experience" data-target="experience" href="#experience">Experience</a>
+<a class="nav-link font-body-sm text-body-sm px-1 py-1 sm:px-space-md md:py-space-xs rounded-full" data-path="contact" data-target="contact" href="#contact">Contact</a>
+</nav>
+<button id="menu-toggle" class="menu-toggle md:hidden" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+<span class="menu-toggle-lines" aria-hidden="true"><span class="menu-line"></span><span class="menu-line"></span><span class="menu-line"></span></span>
+</button>
+<div class="hidden sm:flex w-8 h-8 rounded-full bg-primary items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="mobile-menu md:hidden" aria-hidden="true">
+<div class="mobile-menu-inner">
+<div class="mobile-menu-links">
+<a class="mobile-nav-link" data-target="philosophy-section" data-mobile-nav data-menu-close href="#philosophy-section"><span class="mobile-nav-index" aria-hidden="true">01</span><span>About</span></a>
+<a class="mobile-nav-link is-active" data-target="work" data-mobile-nav data-menu-close href="#work"><span class="mobile-nav-index" aria-hidden="true">02</span><span>Work</span></a>
+<a class="mobile-nav-link" data-target="experience" data-mobile-nav data-menu-close href="#experience"><span class="mobile-nav-index" aria-hidden="true">03</span><span>Experience</span></a>
+<a class="mobile-nav-link" data-target="contact" data-mobile-nav data-menu-close href="#contact"><span class="mobile-nav-index" aria-hidden="true">04</span><span>Contact</span></a>
+</div>
+<div class="flex flex-col gap-2">
+<div class="mobile-menu-actions">
+<a class="mobile-menu-primary" data-menu-close href="mailto:dommarvellino@gmail.com"><span>Get in touch</span><span class="material-symbols-outlined text-[16px]">arrow_outward</span></a>
+<button class="mobile-menu-secondary" type="button" data-menu-back-to-top><span>Back to top</span><span class="material-symbols-outlined text-[16px]">north</span></button>
+</div>
+<p class="mobile-menu-meta">Semarang / Pringsewu, ID · dommarvellino@gmail.com</p>
+</div>
+</div>
+</div>
+</header><main class="w-full pt-20 bg-obsidian-canvas flex-1"><div class="flex flex-col w-full selection:bg-electric-iris selection:text-bone-white">
+<!-- HERO SECTION: Edge-to-edge typography, profile portrait & Dennis Snellenberg floating pill badge -->
+<section id="hero-section" class="relative isolate w-full px-margin-mobile md:px-margin pb-24 md:pb-36 overflow-hidden">
+<!-- ASCII Schlieren Background -->
+<canvas id="schlieren-canvas" class="absolute inset-0 -z-10 w-full h-full pointer-events-none" aria-hidden="true"></canvas>
+<!-- Fluid background ambient glow -->
+<div class="absolute -top-40 right-1/4 w-[600px] h-[600px] bg-electric-iris/10 rounded-full blur-[140px] pointer-events-none"></div>
+<!-- Top Floating Badges Bar -->
+<div class="flex flex-wrap items-center justify-between gap-space-md pt-4 pb-12">
+<!-- Location Pill with Inset Ring -->
+<div class="inline-flex items-center gap-space-md py-space-sm px-space-xl rounded-full bg-obsidian-canvas shadow-[inset_0_0_0_1px_rgba(255,255,255,0.2)]">
+<span class="inline-block w-2 h-2 rounded-full bg-electric-iris animate-pulse"></span>
+<span class="font-label-md text-label-md uppercase tracking-widest text-bone-white">Semarang, Indonesia</span>
+<span class="font-caption text-caption text-fog pl-space-xs font-mono">06°58'S 110°25'E</span>
+</div>
+<!-- Live Metric Pill -->
+<div class="inline-flex items-center gap-space-sm py-space-sm px-space-xl rounded-full bg-surface-container-low shadow-[inset_0_0_0_1px_rgba(255,255,255,0.1)]">
+<span class="font-caption text-caption text-fog uppercase tracking-wider">TikTok Viral Motion</span>
+<span class="font-label-md text-label-md text-bone-white font-mono">40.6K+ Likes</span>
+</div>
+</div>
+<!-- Monolithic Display Title -->
+<div class="w-full select-none max-w-full overflow-hidden"><h1 class="font-display text-[46px] sm:text-[76px] md:text-[104px] lg:text-[124px] xl:text-[144px] font-medium tracking-[0.03em] uppercase text-bone-white leading-none break-words" id="hero-name-1">DOMINIKUS</h1><div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-lg mt-1 md:mt-2"><h1 class="font-display text-[46px] sm:text-[76px] md:text-[104px] lg:text-[124px] xl:text-[144px] font-medium tracking-[0.03em] uppercase text-bone-white leading-none break-words" id="hero-name-2">MARVELLINO</h1><div class="pb-2 md:pb-3 max-w-sm flex items-start gap-space-md"><span class="text-bone-white text-2xl leading-none shrink-0">↘</span><p class="font-body-sm text-body-sm text-fog" id="hero-sub">AI &amp; Big Data Undergraduate at Unika Soegijapranata · High-Octane Short-Form Sports Video Editor (<span class="text-bone-white">@2kMarvin</span>).</p></div></div></div>
+<!-- Hero Asymmetric Canvas: Portrait Feature + Micro Stats -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg mt-12 md:mt-16 items-start">
+<!-- Portrait Card with Inset Edge -->
+<div class="lg:col-span-8 relative h-[380px] sm:h-[480px] md:h-[540px] rounded-lg overflow-hidden bg-surface-container shadow-[inset_0_0_0_1px_rgba(255,255,255,0.15)] group">
+<img class="w-full h-full object-cover grayscale contrast-125 transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Editorial cinematic studio portrait of Dominikus Marvellino, young Indonesian creative director and AI engineer, minimalist dark obsidian lighting, high-contrast monochrome accent with subtle electric blue highlights, intense thoughtful gaze, ultra sharp editorial portrait style." src="portfolio-hero.jpeg">
+<!-- Editorial Image Scrim -->
+<div class="absolute inset-0 bg-gradient-to-t from-obsidian-canvas via-obsidian-canvas/30 to-transparent"></div>
+<!-- Corner Floating Credential Pill -->
+<div class="absolute bottom-6 left-6 right-6 flex flex-wrap items-end justify-between gap-space-md">
+<div class="bg-obsidian-canvas/90 backdrop-blur-md py-space-md px-space-xl rounded-full shadow-[inset_0_0_0_1px_rgba(255,255,255,0.2)]">
+<span class="font-label-md text-label-md text-bone-white block">Creative Director &amp; Video Architect</span>
+<span class="font-caption text-caption text-fog uppercase tracking-wider block">Channel Alias: 2kMarvin · TikTok Verified Rhythm</span>
+</div>
+<a class="hidden sm:inline-flex items-center gap-space-sm bg-bone-white text-obsidian-canvas py-space-md px-space-xl rounded-full font-body-sm text-body-sm hover:bg-electric-iris hover:text-bone-white transition-colors duration-200" href="#contact">
+<span class="">Initiate Contact</span>
+<span class="material-symbols-outlined text-base">arrow_outward</span>
+</a>
+</div>
+</div>
+<!-- Side Editorial Rail -->
+<div class="lg:col-span-4 flex flex-col gap-space-lg">
+<!-- Quick Bio Block -->
+<div class="p-space-xl rounded-lg bg-surface-container shadow-[inset_0_0_0_1px_rgba(255,255,255,0.12)]">
+<span class="font-caption text-caption text-fog uppercase tracking-widest block mb-space-sm">DISCIPLINE MATRIX</span>
+<p class="font-body-md text-body-md text-bone-white">
+            Synthesizing algorithmic precision with short-form motion rhythm. Leveraging predictive data pipelines while orchestrating viral visual narratives for sports communities.
+          </p>
+<div class="mt-space-lg pt-space-md flex items-center justify-between text-fog font-caption text-caption">
+<span class="">CURRENT LOC</span>
+<span class="text-bone-white">SEMARANG / PRINGSEWU</span>
+</div>
+</div>
+<!-- Metric Tile with Sparkline Visual -->
+<div class="p-space-xl rounded-lg bg-surface-container-low shadow-[inset_0_0_0_1px_rgba(255,255,255,0.12)]">
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-caption text-caption text-fog uppercase tracking-widest">VIRAL PEAK RETENTION</span>
+<span class="font-label-md text-label-md text-secondary">75.7K+ REEL</span>
+</div>
+<div class="font-headline-sm text-headline-sm text-bone-white mb-space-md font-mono">
+            120,800+
+          </div>
+<p class="font-caption text-caption text-fog mb-space-md">Aggregated organic reach on premier NBA &amp; NFL highlight sequences.</p>
+<!-- Inline Sparkline SVG -->
+<div class="w-full h-12">
+<svg class="w-full h-full stroke-electric-iris fill-none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 280 48">
+<path d="M 0,38 Q 30,36 60,30 T 120,24 T 160,32 T 200,10 T 240,4 T 280,1"></path>
+<circle class="fill-bone-white stroke-electric-iris" cx="280" cy="1" r="3" stroke-width="1.5"></circle>
+</svg>
+</div>
+</div>
+<!-- Compact Social Index -->
+<div class="flex items-center gap-space-sm">
+<a class="flex-1 py-space-md px-space-md text-center rounded-full bg-obsidian-canvas hover:bg-graphite text-bone-white font-label-md text-label-md shadow-[inset_0_0_0_1px_rgba(255,255,255,0.2)] transition-colors duration-150 uppercase tracking-widest" href="https://linkedin.com/in/dominikus-marvellino-904755377" rel="noopener noreferrer" target="_blank">
+            LinkedIn
+          </a>
+<a class="flex-1 py-space-md px-space-md text-center rounded-full bg-obsidian-canvas hover:bg-graphite text-bone-white font-label-md text-label-md shadow-[inset_0_0_0_1px_rgba(255,255,255,0.2)] transition-colors duration-150 uppercase tracking-widest" href="mailto:dommarvellino@gmail.com">
+            E-Mail
+          </a>
+</div>
+</div>
+</div>
+</section>
+<!-- STATEMENT & PHILOSOPHY: Dennis Snellenberg Editorial Ratio -->
+<section id="philosophy-section" class="relative isolate w-full overflow-hidden px-margin-mobile md:px-margin py-20 md:py-32 bg-surface-container-lowest">
+<!-- Mosaic shader background (21st.dev / kedhareswer) -->
+<div class="ph-shader" id="philosophy-shader" data-scene="mosaic" aria-hidden="true">
+<div class="ph-shader-shade"></div>
+</div>
+<div class="relative z-10 max-w-6xl mx-auto flex flex-col gap-12 md:gap-20">
+<div class="flex items-center gap-space-md">
+<span class="font-caption text-caption uppercase text-fog tracking-widest">01 // PHILOSOPHY</span>
+<div class="flex-1 h-px bg-white/10"></div>
+<span class="font-caption text-caption text-fog font-mono">[ETHIC &amp; DRIVE]</span>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+<div class="lg:col-span-7">
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg font-medium text-bone-white leading-tight">
+            Storyteller at the intersection of AI, big data &amp; viral sports motion.
+          </h2>
+</div>
+<div class="lg:col-span-5 flex flex-col gap-space-lg text-fog font-body-md text-body-md leading-relaxed">
+<p class="">
+            I have always possessed a fierce drive to learn, create, and connect—whether that means decoding complex models in high-level coursework or sculpting high-retention stories across digital media.
+          </p>
+<p class="">
+            This methodology powered a <span class="text-bone-white font-semibold">94.93 overall high school academic distinction</span> at SMA Xaverius Pringsewu, while concurrently launching the sports editing channel <span class="text-bone-white font-semibold">2kMarvin</span>. Today, that engine generates tens of thousands of views through strict micro-pacing, precise color science, and algorithmic hook timing.
+          </p>
+<div class="pt-space-md flex items-center gap-space-xl">
+<div>
+<span class="font-headline-sm text-headline-sm text-bone-white block font-mono">94.93</span>
+<span class="font-caption text-caption text-fog uppercase">Overall Academic Metric</span>
+</div>
+<div>
+<span class="font-headline-sm text-headline-sm text-bone-white block font-mono">IELTS</span>
+<span class="font-caption text-caption text-fog uppercase">Global English Prep</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SELECTED WORKS / PROJECTS: Editorial Index & Highlight Showcase -->
+<section class="w-full px-margin-mobile md:px-margin py-24 md:py-36" id="work">
+<div class="flex flex-col gap-space-sm mb-16">
+<div class="flex items-center justify-between">
+<span class="font-caption text-caption uppercase text-fog tracking-widest">02 // SELECTED WORKS</span>
+<span class="font-caption text-caption text-fog">2024 — 2026 ARCHIVE</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl-mobile md:text-headline-xl text-bone-white font-medium">
+        Work &amp; Prototypes
+      </h2>
+</div>
+<!-- Editorial Stacks & Accent Card Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+<!-- Primary Feature: 2kMarvin TikTok Sports Motion (Left Heavy 7 cols) -->
+<div class="lg:col-span-7 flex flex-col justify-between p-space-xl md:p-10 rounded-lg bg-surface-container shadow-[inset_0_0_0_1px_rgba(255,255,255,0.15)] group relative overflow-hidden">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="font-caption text-caption uppercase tracking-wider text-fog">PROJECT 01 · VIRAL EDITORIAL</span>
+<span class="font-label-md text-label-md font-mono text-secondary">ACTIVE PRODUCTION</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-bone-white">
+            2kMarvin Sports Motion Architecture
+          </h3>
+<p class="font-body-md text-body-md text-fog max-w-xl">
+            Short-form high-octane video edits centered around NBA and NFL/NCAA football highlights. Curated dynamic pacing, bespoke color grading LUTs, and micro-synced audio rhythm for sports audiences.
+          </p>
+</div>
+<!-- Project Media Placeholder -->
+<div class="my-8 rounded-lg overflow-hidden h-60 sm:h-72 w-full relative bg-obsidian-canvas shadow-[inset_0_0_0_1px_rgba(255,255,255,0.1)]">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 opacity-80" data-alt="Editorial dark video editing interface showing high-frame-rate basketball slam dunk sequence with layered audio waveforms, color grading curves, and sports highlight keyframes in an obsidian-toned workspace." src="portfolio-project-01.png">
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-transparent"></div>
+<div class="absolute bottom-4 left-4 flex gap-space-sm">
+<span class="px-space-md py-space-xs rounded-full bg-obsidian-canvas/90 text-bone-white font-caption text-caption font-mono">NBA / NFL HIGHLIGHTS</span>
+<span class="px-space-md py-space-xs rounded-full bg-obsidian-canvas/90 text-bone-white font-caption text-caption font-mono">CAPCUT</span>
+</div>
+</div>
+<div class="grid grid-cols-3 gap-space-md pt-4 border-t border-white/10 text-bone-white">
+<div>
+<span class="font-caption text-caption text-fog uppercase block">TOTAL ENGAGEMENT</span>
+<span class="font-headline-sm text-2xl font-mono">40.6K+</span>
+</div>
+<div>
+<span class="font-caption text-caption text-fog uppercase block">PEAK REEL A</span>
+<span class="font-headline-sm text-2xl font-mono text-secondary">75.7K</span>
+</div>
+<div>
+<span class="font-caption text-caption text-fog uppercase block">PEAK REEL B</span>
+<span class="font-headline-sm text-2xl font-mono">45.1K</span>
+</div>
+</div>
+</div>
+<!-- Accent Column: Electric Iris Card & Technical Initiative -->
+<div class="lg:col-span-5 flex flex-col gap-space-lg">
+<!-- THE SINGLE ACCENT CARD: Electric Iris (#455ce9) -->
+<div class="p-space-xl md:p-8 rounded-lg bg-electric-iris text-bone-white flex flex-col justify-between relative overflow-hidden group">
+<div class="flex items-center justify-between mb-6">
+<span class="font-caption text-caption uppercase tracking-widest text-bone-white/80">TECHNICAL ARSENAL</span>
+<span class="material-symbols-outlined text-bone-white text-xl">tune</span>
+</div>
+<div>
+<span class="font-caption text-caption uppercase tracking-wider text-bone-white/80 block mb-2 font-mono">CREATIVE EDITING STACK</span>
+<h3 class="font-headline-sm text-2xl md:text-headline-sm font-medium text-bone-white leading-tight mb-4">
+              Motion pacing calibrated for the algorithmic eye.
+            </h3>
+<p class="font-body-sm text-body-sm text-bone-white/90 leading-relaxed mb-6">
+              Executing precision cuts across Premiere Pro and CapCut. Combining data analytics to evaluate watch duration, sound retention curves, and instant narrative hooks.
+            </p>
+</div>
+<div class="flex flex-wrap gap-2 pt-4 border-t border-bone-white/20 font-label-md text-label-md">
+<span class="py-1 px-3 rounded-full bg-white/20 backdrop-blur-sm">Dynamic Pacing</span>
+<span class="py-1 px-3 rounded-full bg-white/20 backdrop-blur-sm">Audio Sync</span>
+<span class="py-1 px-3 rounded-full bg-white/20 backdrop-blur-sm">Color Grading</span>
+<span class="py-1 px-3 rounded-full bg-white/20 backdrop-blur-sm">Python / Big Data</span>
+</div>
+</div>
+<!-- Project 02: IBM Bob 2.0 Hackathon -->
+<div class="p-space-xl rounded-lg bg-surface-container shadow-[inset_0_0_0_1px_rgba(255,255,255,0.12)] hover:bg-graphite transition-colors duration-200">
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-caption text-caption uppercase text-fog font-mono">PROJECT 02 // LABLAB.AI</span>
+<span class="text-bone-white text-lg">↗</span>
+</div>
+<h4 class="font-headline-sm text-xl text-bone-white mb-2">IBM Bob 2.0 Hackathon Participant</h4>
+<p class="font-body-sm text-body-sm text-fog mb-4">
+            Collaborative challenge focused on rapid prototyping of artificial intelligence, vector query solutions, and generative pipelines.
+          </p>
+<div class="flex items-center gap-space-sm font-caption text-caption text-fog">
+<span class="">SEPTEMBER 2026</span>
+<span class="">•</span>
+<span class="text-bone-white">AI / BIG DATA</span>
+</div>
+</div>
+<!-- Project 03: Digital Skill Fair 54.0 -->
+<div class="p-space-xl rounded-lg bg-surface-container shadow-[inset_0_0_0_1px_rgba(255,255,255,0.12)] hover:bg-graphite transition-colors duration-200">
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-caption text-caption uppercase text-fog font-mono">PROJECT 03 // DIBIMBING</span>
+<span class="text-bone-white text-lg">↗</span>
+</div>
+<h4 class="font-headline-sm text-xl text-bone-white mb-2">Digital Skill Fair 54.0: FWD, FE, BE</h4>
+<p class="font-body-sm text-body-sm text-fog mb-4">
+            Intensive technical sprint encompassing Fullstack Web Development, modern Frontend frameworks, and Backend API architectures.
+          </p>
+<div class="flex items-center gap-space-sm font-caption text-caption text-fog">
+<span class="">FULLSTACK SPRINT</span>
+<span class="">•</span>
+<span class="text-bone-white">FRONTEND &amp; BACKEND</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Open Source: GitHub Repository Index -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm mt-16 mb-6">
+<span class="font-caption text-caption uppercase tracking-wider text-fog">PROJECTS 04 — 10 // OPEN SOURCE</span>
+<a class="font-caption text-caption text-fog hover:text-bone-white transition-colors duration-150 font-mono" href="https://github.com/dommarvellino-debug" rel="noopener noreferrer" target="_blank">github.com/dommarvellino-debug ↗</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg">
+<!-- Project 04: PromptGold -->
+<a class="p-space-xl rounded-lg bg-surface-container shadow-[inset_0_0_0_1px_rgba(255,255,255,0.12)] hover:bg-graphite transition-colors duration-200 flex flex-col justify-between group" href="https://github.com/dommarvellino-debug/PromptGold" rel="noopener noreferrer" target="_blank">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-caption text-caption uppercase text-fog font-mono">PROJECT 04 // GITHUB</span>
+<span class="text-bone-white text-lg transform group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-200">↗</span>
+</div>
+<h4 class="font-headline-sm text-xl text-bone-white mb-2">PromptGold — pytest for Prompts</h4>
+<p class="font-body-sm text-body-sm text-fog mb-4">
+            Python framework that turns prompt changes into regression tests: blessed golden files, offline cassette replay, CI verdicts, and a GitHub Action. Built during the IBM Bob 2.0 hackathon with a 40-attack scan/heal workflow.
+          </p>
+<div class="flex flex-wrap gap-2 mb-5 font-caption text-caption text-fog">
+<span class="px-space-md py-1 rounded-full bg-obsidian-canvas/70 border border-white/10">Python</span>
+<span class="px-space-md py-1 rounded-full bg-obsidian-canvas/70 border border-white/10">pytest</span>
+<span class="px-space-md py-1 rounded-full bg-obsidian-canvas/70 border border-white/10">CI</span>
+<span class="px-space-md py-1 rounded-full bg-obsidian-canvas/70 border border-white/10">IBM Bob</span>
+</div>
+</div>
+<div class="flex items-center gap-space-sm font-caption text-caption text-fog">
+<span class="">SEPT 2026</span>
+<span class="">•</span>
+<span class="text-bone-white">AI TESTING</span>
+</div>
+</a>
+<!-- Project 05: PythonPath -->
+<a class="p-space-xl rounded-lg bg-surface-container shadow-[inset_0_0_0_1px_rgba(255,255,255,0.12)] hover:bg-graphite transition-colors duration-200 flex flex-col justify-between group" href="https://github.com/dommarvellino-debug/pythonpath" rel="noopener noreferrer" target="_blank">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-caption text-caption uppercase text-fog font-mono">PROJECT 05 // GITHUB</span>
+<span class="text-bone-white text-lg transform group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-200">↗</span>
+</div>
+<h4 class="font-headline-sm text-xl text-bone-white mb-2">PythonPath — 45-Day Course</h4>
+<p class="font-body-sm text-body-sm text-fog mb-4">
+            Zero-dependency learning dashboard with a daily roadmap, short lessons, five mini-projects, practice prompts, and progress saved in the browser. Runs straight from index.html.
+          </p>
+<div class="flex flex-wrap gap-2 mb-5 font-caption text-caption text-fog">
+<span class="px-space-md py-1 rounded-full bg-obsidian-canvas/70 border border-white/10">HTML</span>
+<span class="px-space-md py-1 rounded-full bg-obsidian-canvas/70 border border-white/10">CSS</span>
+<span class="px-space-md py-1 rounded-full bg-obsidian-canvas/70 border border-white/10">JavaScript</span>
+</div>
+</div>
+<div class="flex items-center gap-space-sm font-caption text-caption text-fog">
+<span class="">NOV 2026</span>
+<span class="">•</span>
+<span class="text-bone-white">EDUCATION</span>
+</div>
+</a>
+<!-- Project 06: NFL Weekly Predictor -->
+<a class="p-space-xl rounded-lg bg-surface-container shadow-[inset_0_0_0_1px_rgba(255,255,255,0.12)] hover:bg-graphite transition-colors duration-200 flex flex-col justify-between group" href="https://github.com/dommarvellino-debug/NFL-weelkly-predictor" rel="noopener noreferrer" target="_blank">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-caption text-caption uppercase text-fog font-mono">PROJECT 06 // GITHUB</span>
+<span class="text-bone-white text-lg transform group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-200">↗</span>
+</div>
+<h4 class="font-headline-sm text-xl text-bone-white mb-2">NFL Weekly Predictor</h4>
+<p class="font-body-sm text-body-sm text-fog mb-4">
+            Weekly NFL outcome predictions built on nflverse play-by-play and schedule data, enriched with Kaggle scores, betting lines and player form. Tuned logistic regression with walk-forward evaluation, leakage-guard tests and a static results UI.
+          </p>
+<div class="flex flex-wrap gap-2 mb-5 font-caption text-caption text-fog">
+<span class="px-space-md py-1 rounded-full bg-obsidian-canvas/70 border border-white/10">Python</span>
+<span class="px-space-md py-1 rounded-full bg-obsidian-canvas/70 border border-white/10">scikit-learn</span>
+<span class="px-space-md py-1 rounded-full bg-obsidian-canvas/70 border border-white/10">nflreadpy</span>
+<span class="px-space-md py-1 rounded-full bg-obsidian-canvas/70 border border-white/10">pandas</span>
+</div>
+</div>
+<div class="flex items-center gap-space-sm font-caption text-caption text-fog">
+<span class="">NOV 2026</span>
+<span class="">•</span>
+<span class="text-bone-white">MACHINE LEARNING</span>
+</div>
+</a>
+<!-- Project 07: HandGestureConsole -->
+<a class="p-space-xl rounded-lg bg-surface-container shadow-[inset_0_0_0_1px_rgba(255,255,255,0.12)] hover:bg-graphite transition-colors duration-200 flex flex-col justify-between group" href="https://github.com/dommarvellino-debug/HandGestureConsole" rel="noopener noreferrer" target="_blank">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-caption text-caption uppercase text-fog font-mono">PROJECT 07 // GITHUB</span>
+<span class="text-bone-white text-lg transform group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-200">↗</span>
+</div>
+<h4 class="font-headline-sm text-xl text-bone-white mb-2">HandGestureConsole</h4>
+<p class="font-body-sm text-body-sm text-fog mb-4">
+            Webcam hand-gesture control for the mouse and workspaces. MediaPipe landmarks feed a gesture state machine with hold cooldowns, an on-screen keyboard, launchers and a global emergency stop hotkey.
+          </p>
+<div class="flex flex-wrap gap-2 mb-5 font-caption text-caption text-fog">
+<span class="px-space-md py-1 rounded-full bg-obsidian-canvas/70 border border-white/10">Python</span>
+<span class="px-space-md py-1 rounded-full bg-obsidian-canvas/70 border border-white/10">MediaPipe</span>
+<span class="px-space-md py-1 rounded-full bg-obsidian-canvas/70 border border-white/10">OpenCV</span>
+<span class="px-space-md py-1 rounded-full bg-obsidian-canvas/70 border border-white/10">PyAutoGUI</span>
+</div>
+</div>
+<div class="flex items-center gap-space-sm font-caption text-caption text-fog">
+<span class="">NOV 2026</span>
+<span class="">•</span>
+<span class="text-bone-white">COMPUTER VISION</span>
+</div>
+</a>
+<!-- Project 08: Walfy Fall Visual Detector -->
+<a class="p-space-xl rounded-lg bg-surface-container shadow-[inset_0_0_0_1px_rgba(255,255,255,0.12)] hover:bg-graphite transition-colors duration-200 flex flex-col justify-between group" href="https://github.com/dommarvellino-debug/Walfy-FallVisualDetector" rel="noopener noreferrer" target="_blank">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-caption text-caption uppercase text-fog font-mono">PROJECT 08 // GITHUB</span>
+<span class="text-bone-white text-lg transform group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-200">↗</span>
+</div>
+<h4 class="font-headline-sm text-xl text-bone-white mb-2">Walfy Fall Visual Detector</h4>
+<p class="font-body-sm text-body-sm text-fog mb-4">
+            Single-camera fall detection and TUG/gait screening from MediaPipe pose landmarks: live browser capture, offline video analysis, and MCFD dataset evaluation. A research measurement tool, not a medical device.
+          </p>
+<div class="flex flex-wrap gap-2 mb-5 font-caption text-caption text-fog">
+<span class="px-space-md py-1 rounded-full bg-obsidian-canvas/70 border border-white/10">Python</span>
+<span class="px-space-md py-1 rounded-full bg-obsidian-canvas/70 border border-white/10">MediaPipe</span>
+<span class="px-space-md py-1 rounded-full bg-obsidian-canvas/70 border border-white/10">OpenCV</span>
+<span class="px-space-md py-1 rounded-full bg-obsidian-canvas/70 border border-white/10">JavaScript</span>
+</div>
+</div>
+<div class="flex items-center gap-space-sm font-caption text-caption text-fog">
+<span class="">NOV 2026</span>
+<span class="">•</span>
+<span class="text-bone-white">RESEARCH CV</span>
+</div>
+</a>
+<!-- Project 09: Handwritten Digit Recognition -->
+<a class="p-space-xl rounded-lg bg-surface-container shadow-[inset_0_0_0_1px_rgba(255,255,255,0.12)] hover:bg-graphite transition-colors duration-200 flex flex-col justify-between group" href="https://github.com/dommarvellino-debug/handwritten-digit-recognition" rel="noopener noreferrer" target="_blank">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-caption text-caption uppercase text-fog font-mono">PROJECT 09 // GITHUB</span>
+<span class="text-bone-white text-lg transform group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-200">↗</span>
+</div>
+<h4 class="font-headline-sm text-xl text-bone-white mb-2">Handwritten Digit Recognition</h4>
+<p class="font-body-sm text-body-sm text-fog mb-4">
+            Two independent digit recognizers: a NumPy MLP with hand-written backpropagation that reached 96.7% test accuracy on sklearn digits with gradients verified against finite differences, plus a Keras/MNIST implementation.
+          </p>
+<div class="flex flex-wrap gap-2 mb-5 font-caption text-caption text-fog">
+<span class="px-space-md py-1 rounded-full bg-obsidian-canvas/70 border border-white/10">Python</span>
+<span class="px-space-md py-1 rounded-full bg-obsidian-canvas/70 border border-white/10">NumPy</span>
+<span class="px-space-md py-1 rounded-full bg-obsidian-canvas/70 border border-white/10">Keras</span>
+<span class="px-space-md py-1 rounded-full bg-obsidian-canvas/70 border border-white/10">scikit-learn</span>
+</div>
+</div>
+<div class="flex items-center gap-space-sm font-caption text-caption text-fog">
+<span class="">NOV 2026</span>
+<span class="">•</span>
+<span class="text-bone-white">NEURAL NETWORKS</span>
+</div>
+</a>
+<!-- Project 10: Aetheris WildfireWatcher -->
+<a class="p-space-xl rounded-lg bg-surface-container shadow-[inset_0_0_0_1px_rgba(255,255,255,0.12)] hover:bg-graphite transition-colors duration-200 flex flex-col justify-between group" href="https://github.com/dommarvellino-debug/Aetheris-WildfireWatcher" rel="noopener noreferrer" target="_blank">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-caption text-caption uppercase text-fog font-mono">PROJECT 10 // GITHUB</span>
+<span class="text-bone-white text-lg transform group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-200">↗</span>
+</div>
+<h4 class="font-headline-sm text-xl text-bone-white mb-2">Aetheris WildfireWatcher</h4>
+<p class="font-body-sm text-body-sm text-fog mb-4">
+            Report-first global wildfire awareness dashboard plotting GDACS reports and NASA FIRMS satellite detections on an interactive globe, with related headlines and an offline survival-analysis pipeline for 12–72 hour threat estimates. In development.
+          </p>
+<div class="flex flex-wrap gap-2 mb-5 font-caption text-caption text-fog">
+<span class="px-space-md py-1 rounded-full bg-obsidian-canvas/70 border border-white/10">Python</span>
+<span class="px-space-md py-1 rounded-full bg-obsidian-canvas/70 border border-white/10">Streamlit</span>
+<span class="px-space-md py-1 rounded-full bg-obsidian-canvas/70 border border-white/10">scikit-learn</span>
+<span class="px-space-md py-1 rounded-full bg-obsidian-canvas/70 border border-white/10">NASA FIRMS</span>
+</div>
+</div>
+<div class="flex items-center gap-space-sm font-caption text-caption text-fog">
+<span class="">NOV 2026</span>
+<span class="">•</span>
+<span class="text-bone-white">GEOSPATIAL AI</span>
+</div>
+</a>
+</div>
+</section>
+<!-- KEY ACHIEVEMENTS: Bento Stats with Minimalist Tonal Tiers -->
+<section class="w-full px-margin-mobile md:px-margin py-20 bg-surface-container-lowest">
+<div class="max-w-7xl mx-auto flex flex-col gap-12">
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-space-md">
+<div>
+<span class="font-caption text-caption uppercase text-fog tracking-widest block mb-1">03 // PROVEN IMPACT</span>
+<h3 class="font-headline-sm text-headline-sm text-bone-white">Verified Metrics &amp; Distinctions</h3>
+</div>
+<p class="font-body-sm text-body-sm text-fog max-w-sm">
+          Quantified performance spanning content production, academic rigor, and bilingual communication proficiency.
+        </p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Metric 1 -->
+<div class="p-space-xl rounded-lg bg-surface-container shadow-[inset_0_0_0_1px_rgba(255,255,255,0.1)] flex flex-col justify-between">
+<div>
+<div class="w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-secondary text-base">favorite</span>
+</div>
+<span class="font-display text-4xl lg:text-5xl font-mono text-bone-white block mb-2">40.6K+</span>
+<span class="font-label-md text-label-md text-bone-white uppercase tracking-wider block">Total TikTok Likes</span>
+</div>
+<p class="font-caption text-caption text-fog mt-6">
+            Sustained audience community built across basketball and football enthusiast communities.
+          </p>
+</div>
+<!-- Metric 2 -->
+<div class="p-space-xl rounded-lg bg-surface-container shadow-[inset_0_0_0_1px_rgba(255,255,255,0.1)] flex flex-col justify-between">
+<div>
+<div class="w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-secondary text-base">visibility</span>
+</div>
+<span class="font-display text-4xl lg:text-5xl font-mono text-bone-white block mb-2">120.8K</span>
+<span class="font-label-md text-label-md text-bone-white uppercase tracking-wider block">Viral Top Views</span>
+</div>
+<p class="font-caption text-caption text-fog mt-6">
+            Generated via peak highlight reels recording 75.7K+ and 45.1K+ standalone organic distributions.
+          </p>
+</div>
+<!-- Metric 3 -->
+<div class="p-space-xl rounded-lg bg-surface-container shadow-[inset_0_0_0_1px_rgba(255,255,255,0.1)] flex flex-col justify-between">
+<div>
+<div class="w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-secondary text-base">school</span>
+</div>
+<span class="font-display text-4xl lg:text-5xl font-mono text-bone-white block mb-2">94.93</span>
+<span class="font-label-md text-label-md text-bone-white uppercase tracking-wider block">Academic Merit</span>
+</div>
+<p class="font-caption text-caption text-fog mt-6">
+            Overall high school cumulative score achieved at SMA Xaverius Pringsewu (Physics track).
+          </p>
+</div>
+<!-- Metric 4 -->
+<div class="p-space-xl rounded-lg bg-surface-container shadow-[inset_0_0_0_1px_rgba(255,255,255,0.1)] flex flex-col justify-between">
+<div>
+<div class="w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-secondary text-base">translate</span>
+</div>
+<span class="font-display text-4xl lg:text-5xl font-mono text-bone-white block mb-2">IELTS</span>
+<span class="font-label-md text-label-md text-bone-white uppercase tracking-wider block">English Cert</span>
+</div>
+<p class="font-caption text-caption text-fog mt-6">
+            Advanced English for Communication certification completed via House of Learning.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- EXPERIENCE & EDUCATION: Editorial Row Index with Hairlines -->
+<section class="w-full px-margin-mobile md:px-margin py-24 md:py-36" id="experience">
+<div class="flex items-center justify-between mb-16 pb-4 border-b border-white/10">
+<div>
+<span class="font-caption text-caption uppercase text-fog tracking-widest block">04 // CHRONOLOGY</span>
+<h2 class="font-headline-sm text-headline-sm text-bone-white">Experience &amp; Education</h2>
+</div>
+<span class="font-caption text-caption text-fog font-mono hidden sm:inline">TRAJECTORY INDEX</span>
+</div>
+<div class="flex flex-col">
+<!-- Item 1: TikTok Creator -->
+<div class="group py-8 md:py-10 border-b border-white/10 flex flex-col lg:flex-row lg:items-center justify-between gap-space-lg hover:bg-graphite/20 px-space-md transition-colors duration-150">
+<div class="flex flex-col sm:flex-row sm:items-baseline gap-space-sm sm:gap-space-xl lg:w-1/2">
+<span class="font-caption text-caption text-fog font-mono sm:w-32">SEP 2025 — PRESENT</span>
+<div>
+<h3 class="font-headline-sm text-2xl md:text-headline-sm text-bone-white">Video Editor &amp; Channel Lead</h3>
+<span class="font-body-sm text-body-sm text-secondary">TikTok (@2kMarvin)</span>
+</div>
+</div>
+<div class="lg:w-1/2 flex items-center justify-between gap-space-md">
+<p class="font-body-sm text-body-sm text-fog max-w-md">
+            Directing viral sports clips, video pacing, audio waveform synchronization, dynamic grading, and metadata optimization.
+          </p>
+<span class="text-bone-white text-xl transform group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-200">↗</span>
+</div>
+</div>
+<!-- Item 2: Unika Soegijapranata -->
+<div class="group py-8 md:py-10 border-b border-white/10 flex flex-col lg:flex-row lg:items-center justify-between gap-space-lg hover:bg-graphite/20 px-space-md transition-colors duration-150">
+<div class="flex flex-col sm:flex-row sm:items-baseline gap-space-sm sm:gap-space-xl lg:w-1/2">
+<span class="font-caption text-caption text-fog font-mono sm:w-32">AUG 2026 — PRESENT</span>
+<div>
+<h3 class="font-headline-sm text-2xl md:text-headline-sm text-bone-white">Bachelor's Degree</h3>
+<span class="font-body-sm text-body-sm text-secondary">Unika Soegijapranata Semarang</span>
+</div>
+</div>
+<div class="lg:w-1/2 flex items-center justify-between gap-space-md">
+<p class="font-body-sm text-body-sm text-fog max-w-md">
+            Major in Artificial Intelligence &amp; Big Data. Rigorous exploration of statistical algorithms, distributed data processing, and predictive models.
+          </p>
+<span class="text-bone-white text-xl transform group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-200">↗</span>
+</div>
+</div>
+<!-- Item 3: House of Learning -->
+<div class="group py-8 md:py-10 border-b border-white/10 flex flex-col lg:flex-row lg:items-center justify-between gap-space-lg hover:bg-graphite/20 px-space-md transition-colors duration-150">
+<div class="flex flex-col sm:flex-row sm:items-baseline gap-space-sm sm:gap-space-xl lg:w-1/2">
+<span class="font-caption text-caption text-fog font-mono sm:w-32">NOV 2025 — FEB 2026</span>
+<div>
+<h3 class="font-headline-sm text-2xl md:text-headline-sm text-bone-white">English Communication &amp; IELTS</h3>
+<span class="font-body-sm text-body-sm text-secondary">House of Learning · Pringsewu</span>
+</div>
+</div>
+<div class="lg:w-1/2 flex items-center justify-between gap-space-md">
+<p class="font-body-sm text-body-sm text-fog max-w-md">
+            Earned professional credentials in verbal fluency, high-level academic writing, and international group collaboration strategies.
+          </p>
+<span class="text-bone-white text-xl transform group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-200">↗</span>
+</div>
+</div>
+<!-- Item 4: High School Diploma -->
+<div class="group py-8 md:py-10 border-b border-white/10 flex flex-col lg:flex-row lg:items-center justify-between gap-space-lg hover:bg-graphite/20 px-space-md transition-colors duration-150">
+<div class="flex flex-col sm:flex-row sm:items-baseline gap-space-sm sm:gap-space-xl lg:w-1/2">
+<span class="font-caption text-caption text-fog font-mono sm:w-32">JUL 2023 — APR 2026</span>
+<div>
+<h3 class="font-headline-sm text-2xl md:text-headline-sm text-bone-white">High School Diploma (Physics)</h3>
+<span class="font-body-sm text-body-sm text-secondary">SMA Xaverius Pringsewu</span>
+</div>
+</div>
+<div class="lg:w-1/2 flex items-center justify-between gap-space-md">
+<p class="font-body-sm text-body-sm text-fog max-w-md">
+            Achieved academic honors with a 94.93 aggregate final grade, reflecting consistent analytical discipline and problem-solving focus.
+          </p>
+<span class="text-bone-white text-xl transform group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-200">↗</span>
+</div>
+</div>
+</div>
+</section>
+<!-- CONTACT & ENGAGEMENT: Editorial High Contrast Split -->
+<section class="relative isolate w-full px-margin-mobile md:px-margin py-24 md:py-36 bg-surface-container-lowest overflow-hidden" id="contact">
+<!-- Starry Nights ASCII backdrop: looping video + poster fallback -->
+<div class="pointer-events-none absolute inset-0 -z-10 bg-cover bg-center" style="background-image:url('portfolio-starry-nights-poster.webp')" aria-hidden="true">
+<video class="h-full w-full object-cover opacity-50" id="contact-bg-video" src="portfolio-starry-nights.mp4" poster="portfolio-starry-nights-poster.webp" autoplay loop muted playsinline preload="metadata" tabindex="-1"></video>
+<div class="absolute inset-0 bg-obsidian-canvas/50"></div>
+<div class="absolute inset-0 bg-gradient-to-b from-surface-container-lowest via-obsidian-canvas/20 to-obsidian-canvas"></div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl">
+<!-- Contact Pitch -->
+<div class="lg:col-span-6 flex flex-col justify-between">
+<div>
+<span class="font-caption text-caption uppercase text-fog tracking-widest block mb-4">05 // GET IN TOUCH</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg font-medium text-bone-white leading-tight mb-6">
+            Let's build intelligent media together.
+          </h2>
+<p class="font-body-md text-body-md text-fog max-w-lg mb-8">
+            Available for remote video editing commissions, creative sports motion strategy, and AI/Big Data research partnerships.
+          </p>
+</div>
+<div class="flex flex-col gap-space-sm font-mono text-sm text-fog mb-8 lg:mb-0">
+<div class="flex items-center gap-space-md">
+<span class="text-bone-white w-20">EMAIL</span>
+<a class="hover:text-bone-white transition-colors duration-150" href="mailto:dommarvellino@gmail.com">dommarvellino@gmail.com</a>
+</div>
+<div class="flex items-center gap-space-md">
+<span class="text-bone-white w-20">PHONE</span>
+<a class="hover:text-bone-white transition-colors duration-150" href="tel:+6281947892748">+62 819-4789-2748</a>
+</div>
+<div class="flex items-center gap-space-md">
+<span class="text-bone-white w-20">LOCATION</span>
+<span class="">Semarang • Pringsewu, Indonesia</span>
+</div>
+</div>
+</div>
+<!-- Quick Interactive Inquiry Panel -->
+<div class="lg:col-span-6 p-space-xl md:p-12 rounded-lg bg-surface-container shadow-[inset_0_0_0_1px_rgba(255,255,255,0.12)]">
+<form class="flex flex-col gap-space-lg" onsubmit="event.preventDefault(); const btn=this.querySelector('button'); btn.innerText='Message Queued!'; btn.classList.add('bg-electric-iris');">
+<div class="flex flex-col gap-2">
+<label class="font-label-md text-label-md uppercase tracking-wider text-fog">Your Name / Organization</label>
+<input class="w-full bg-obsidian-canvas text-bone-white placeholder-fog/60 py-space-md px-space-xl rounded-full shadow-[inset_0_0_0_1px_rgba(255,255,255,0.2)] focus:shadow-[inset_0_0_0_1px_#455ce9] outline-none font-body-sm text-body-sm transition-all duration-200" placeholder="e.g. Elena Vance / Apex Sports" required="" type="text">
+</div>
+<div class="flex flex-col gap-2">
+<label class="font-label-md text-label-md uppercase tracking-wider text-fog">Your Email Address</label>
+<input class="w-full bg-obsidian-canvas text-bone-white placeholder-fog/60 py-space-md px-space-xl rounded-full shadow-[inset_0_0_0_1px_rgba(255,255,255,0.2)] focus:shadow-[inset_0_0_0_1px_#455ce9] outline-none font-body-sm text-body-sm transition-all duration-200" placeholder="name@domain.com" required="" type="email">
+</div>
+<div class="flex flex-col gap-2">
+<label class="font-label-md text-label-md uppercase tracking-wider text-fog">Project Scope</label>
+<div class="flex flex-wrap gap-2 pt-1">
+<label class="cursor-pointer">
+<input checked="" class="peer sr-only" name="scope" type="radio" value="motion">
+<span class="inline-block py-2 px-4 rounded-full bg-obsidian-canvas text-fog text-xs peer-checked:bg-electric-iris peer-checked:text-bone-white shadow-[inset_0_0_0_1px_rgba(255,255,255,0.2)] transition-colors">Video Editing / TikTok</span>
+</label>
+<label class="cursor-pointer">
+<input class="peer sr-only" name="scope" type="radio" value="ai">
+<span class="inline-block py-2 px-4 rounded-full bg-obsidian-canvas text-fog text-xs peer-checked:bg-electric-iris peer-checked:text-bone-white shadow-[inset_0_0_0_1px_rgba(255,255,255,0.2)] transition-colors">AI &amp; Big Data Prototype</span>
+</label>
+<label class="cursor-pointer">
+<input class="peer sr-only" name="scope" type="radio" value="collab">
+<span class="inline-block py-2 px-4 rounded-full bg-obsidian-canvas text-fog text-xs peer-checked:bg-electric-iris peer-checked:text-bone-white shadow-[inset_0_0_0_1px_rgba(255,255,255,0.2)] transition-colors">General Collaboration</span>
+</label>
+</div>
+</div>
+<div class="flex flex-col gap-2">
+<label class="font-label-md text-label-md uppercase tracking-wider text-fog">Message Details</label>
+<textarea class="w-full bg-obsidian-canvas text-bone-white placeholder-fog/60 py-space-md px-space-xl rounded-lg shadow-[inset_0_0_0_1px_rgba(255,255,255,0.2)] focus:shadow-[inset_0_0_0_1px_#455ce9] outline-none font-body-sm text-body-sm resize-none transition-all duration-200" placeholder="Tell me about the goals, timelines, or video specs..." required="" rows="3"></textarea>
+</div>
+<button class="w-full mt-2 py-space-md px-space-xl rounded-full bg-electric-iris hover:bg-deep-iris text-bone-white font-body-sm text-body-sm uppercase tracking-widest transition-colors duration-200 flex items-center justify-center gap-space-sm cursor-pointer shadow-lg" type="submit">
+<span class="">Send Direct Dispatch</span>
+<span class="material-symbols-outlined text-base">send</span>
+</button>
+</form>
+</div>
+</div>
+</section>
+</div></main><footer id="site-footer" class="relative w-full overflow-hidden bg-obsidian-canvas border-t border-white/10">
+<style>
+  #site-footer .footer-grain{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23g)'/%3E%3C/svg%3E");background-size:180px 180px}
+  #site-footer [data-back-to-top]{cursor:pointer}
+  #halftone-stage{touch-action:manipulation}
+  section[id]{scroll-margin-top:5.5rem}
+  @media (prefers-reduced-motion: reduce){#contact-bg-video{display:none}}
+</style>
+
+<!-- Print grain -->
+<div class="footer-grain pointer-events-none absolute inset-0 z-30 opacity-[0.06] mix-blend-soft-light" aria-hidden="true"></div>
+
+<!-- Studio line + pitch + actions -->
+<div class="relative z-20 w-full px-margin-mobile md:px-margin pt-20 pb-8 md:pt-28 md:pb-14">
+  <div class="flex items-center gap-space-md">
+    <span class="font-caption text-caption uppercase tracking-[0.3em] text-fog">Studio / 2kMarvin</span>
+    <span class="h-px flex-1 bg-white/10"></span>
+    <span class="hidden font-caption text-caption uppercase tracking-[0.3em] text-fog sm:inline">Semarang, ID</span>
+  </div>
+
+  <div class="mt-10 flex flex-col gap-space-lg md:mt-14 md:flex-row md:items-end md:justify-between">
+    <div class="max-w-2xl">
+      <h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg xl:text-[76px] xl:leading-[0.98] font-medium leading-[1.05] tracking-tight text-bone-white">Let&rsquo;s collaborate<span class="text-electric-iris">.</span></h2>
+      <p class="mt-space-md max-w-md md:mt-space-lg md:max-w-lg font-body-sm text-body-sm text-fog md:text-body-md">AI &amp; Big Data undergraduate synthesizing algorithmic precision with high-octane short-form video rhythm.</p>
+    </div>
+    <div class="flex flex-wrap items-center gap-space-sm">
+      <a class="group inline-flex items-center gap-space-sm rounded-full bg-electric-iris px-space-xl py-space-md md:px-8 md:py-4 font-body-sm text-body-sm md:text-body-md text-bone-white transition-colors duration-200 hover:bg-deep-iris" href="mailto:dommarvellino@gmail.com">
+        Get in touch
+        <span class="material-symbols-outlined text-[16px] transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:translate-x-0.5">arrow_outward</span>
+      </a>
+      <button class="inline-flex items-center gap-space-sm rounded-full bg-surface-container-low px-space-xl py-space-md md:px-8 md:py-4 font-caption text-caption uppercase tracking-widest text-bone-white shadow-[inset_0_0_0_1px_rgba(255,255,255,0.2)] transition-colors duration-200 hover:bg-graphite" data-back-to-top type="button">
+        Back to top
+        <span class="material-symbols-outlined text-[16px]">north</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Legal -->
+  <div class="mt-14 flex flex-col gap-space-sm border-t border-white/10 pt-space-md md:mt-20 font-caption text-caption uppercase tracking-wider text-fog sm:flex-row sm:items-center sm:justify-between">
+    <div class="flex flex-wrap items-center gap-space-md">
+      <span>Semarang / Pringsewu, ID</span>
+      <span class="text-graphite">&bull;</span>
+      <span>Creative direction &amp; data science</span>
+    </div>
+    <div>&copy; 2026 2kMarvin. All rights reserved.</div>
+  </div>
+</div>
+
+<!-- Halftone wordmark, cropped by the bottom edge -->
+<div class="relative z-10 select-none" aria-hidden="true">
+  <div class="relative w-full overflow-hidden" id="halftone-stage" style="height:clamp(86px,21vw,440px)">
+    <canvas class="absolute inset-0 h-full w-full" id="halftone-canvas"></canvas>
+  </div>
+</div>
+
+<script>
+(() => {
+  const footer = document.getElementById("site-footer");
+  const stage = document.getElementById("halftone-stage");
+  const canvas = document.getElementById("halftone-canvas");
+  if (!footer || !stage || !canvas) return;
+
+  const reducedQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
+  const reduced = () => reducedQuery.matches;
+
+  footer.querySelector("[data-back-to-top]")?.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: reduced() ? "auto" : "smooth" });
+  });
+
+  const ctx = canvas.getContext("2d");
+  if (!ctx) return;
+
+  const WORD = "marvellino";
+  const TRACKING = 0.01;
+  const FONT_WEIGHT = 600;
+  const FONT_STACK = 'Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif';
+  const BASE = [200, 203, 214];
+  const WARM = [255, 182, 146];
+  const WIDTH_SCALE = 0.82;
+  const GLYPH_STRETCH = 1.08;
+  const WORD_HEIGHT = 1.2;
+  const BASELINE = 0.05;
+  const TAU = Math.PI * 2;
+
+  let width = 0;
+  let height = 0;
+  let fontSize = 0;
+  let gap = 9;
+  let dpr = 1;
+  let dots = [];
+  let rings = [];
+  let raf = 0;
+  let lastFrame = 0;
+  let visible = true;
+  const pointer = { x: 0, y: 0, active: false };
+
+  const nowSeconds = () => performance.now() / 1000;
+
+  function measureWord(context, size) {
+    context.font = FONT_WEIGHT + " " + size + "px " + FONT_STACK;
+    const tracking = size * TRACKING;
+    let total = 0;
+    for (const ch of WORD) total += context.measureText(ch).width + tracking;
+    return total - tracking;
+  }
+
+  function build() {
+    width = Math.max(1, stage.clientWidth);
+    const probe = document.createElement("canvas").getContext("2d");
+    const reference = measureWord(probe, 200) / 200;
+    fontSize = Math.max(56, (width * 0.998) / (reference * WIDTH_SCALE));
+    height = Math.round(fontSize * WORD_HEIGHT);
+    stage.style.height = height + "px";
+
+    dpr = Math.min(2, window.devicePixelRatio || 1);
+    canvas.width = Math.max(1, Math.round(width * dpr));
+    canvas.height = Math.max(1, Math.round(height * dpr));
+
+    const mask = document.createElement("canvas");
+    mask.width = canvas.width;
+    mask.height = canvas.height;
+    const maskCtx = mask.getContext("2d");
+    maskCtx.setTransform(dpr * WIDTH_SCALE, 0, 0, dpr * GLYPH_STRETCH, 0, 0);
+    maskCtx.textBaseline = "alphabetic";
+    maskCtx.fillStyle = "#fff";
+
+    const tracking = fontSize * TRACKING;
+    const total = measureWord(maskCtx, fontSize);
+    let x = (width / WIDTH_SCALE - total) / 2;
+    const baseline = (height + fontSize * BASELINE) / GLYPH_STRETCH;
+    for (const ch of WORD) {
+      maskCtx.fillText(ch, x, baseline);
+      x += maskCtx.measureText(ch).width + tracking;
+    }
+
+    const pixels = maskCtx.getImageData(0, 0, mask.width, mask.height).data;
+    gap = width < 480 ? 5 : width < 900 ? 7 : 9;
+    const step = Math.max(2, Math.round(gap * dpr));
+    const next = [];
+
+    for (let py = 0; py < mask.height; py += step) {
+      for (let px = 0; px < mask.width; px += step) {
+        let alpha = 0;
+        for (let oy = 0; oy < 3; oy++) {
+          for (let ox = 0; ox < 3; ox++) {
+            const sx = Math.min(mask.width - 1, px + Math.round(((ox + 0.5) * step) / 3));
+            const sy = Math.min(mask.height - 1, py + Math.round(((oy + 0.5) * step) / 3));
+            alpha += pixels[(sy * mask.width + sx) * 4 + 3];
+          }
+        }
+        alpha /= 9;
+        if (alpha < 8) continue;
+        next.push({
+          x: (px + step / 2) / dpr,
+          y: (py + step / 2) / dpr,
+          r: Math.max(0.4, gap * 0.48 * Math.pow(alpha / 255, 0.55)),
+          ox: 0,
+          oy: 0,
+          vx: 0,
+          vy: 0,
+          warm: 0,
+          bucket: 0,
+        });
+      }
+    }
+
+    dots = next;
+    rings = [];
+    draw(nowSeconds());
+  }
+
+  function update(dt, time) {
+    const reach = Math.max(90, gap * 15);
+    const reach2 = reach * reach;
+    const push = gap * 3.6;
+
+    for (const dot of dots) {
+      let tx = 0;
+      let ty = 0;
+
+      if (pointer.active) {
+        const dx = dot.x - pointer.x;
+        const dy = dot.y - pointer.y;
+        const dist2 = dx * dx + dy * dy;
+        if (dist2 < reach2) {
+          const dist = Math.sqrt(dist2) || 0.0001;
+          const falloff = 1 - dist / reach;
+          const force = falloff * falloff * push;
+          tx += (dx / dist) * force;
+          ty += (dy / dist) * force;
+        }
+      }
+
+      for (const ring of rings) {
+        const age = time - ring.t;
+        if (age < 0 || age > ring.life) continue;
+        const radius = age * ring.speed;
+        const dx = dot.x - ring.x;
+        const dy = dot.y - ring.y;
+        const dist = Math.sqrt(dx * dx + dy * dy) || 0.0001;
+        const band = (dist - radius) / ring.width;
+        const force = Math.exp(-band * band) * ring.strength * (1 - age / ring.life);
+        tx += (dx / dist) * force;
+        ty += (dy / dist) * force;
+      }
+
+      dot.vx += (tx - dot.ox) * 0.16 * dt;
+      dot.vy += (ty - dot.oy) * 0.16 * dt;
+      dot.vx *= Math.pow(0.85, dt);
+      dot.vy *= Math.pow(0.85, dt);
+      dot.ox += dot.vx * dt;
+      dot.oy += dot.vy * dt;
+
+      const energy = Math.min(1, Math.hypot(dot.ox, dot.oy) / (gap * 2.2));
+      dot.warm += (energy - dot.warm) * Math.min(1, 0.18 * dt);
+      dot.bucket = Math.round(dot.warm * 9);
+    }
+
+    rings = rings.filter((ring) => time - ring.t < ring.life);
+  }
+
+  function draw(time) {
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    ctx.clearRect(0, 0, width, height);
+
+    for (const ring of rings) {
+      const age = time - ring.t;
+      if (age < 0 || age > ring.life) continue;
+      const fade = 1 - age / ring.life;
+      ctx.beginPath();
+      ctx.arc(ring.x, ring.y, age * ring.speed, 0, TAU);
+      ctx.strokeStyle = "rgba(255, 182, 146, " + (0.16 * fade).toFixed(3) + ")";
+      ctx.lineWidth = 1;
+      ctx.stroke();
+    }
+
+    for (let bucket = 0; bucket < 10; bucket++) {
+      let started = false;
+      ctx.beginPath();
+      for (const dot of dots) {
+        if (dot.bucket !== bucket) continue;
+        started = true;
+        ctx.moveTo(dot.x + dot.ox + dot.r, dot.y + dot.oy);
+        ctx.arc(dot.x + dot.ox, dot.y + dot.oy, dot.r, 0, TAU);
+      }
+      if (!started) continue;
+      const mix = bucket / 9;
+      const r = Math.round(BASE[0] + (WARM[0] - BASE[0]) * mix);
+      const g = Math.round(BASE[1] + (WARM[1] - BASE[1]) * mix);
+      const b = Math.round(BASE[2] + (WARM[2] - BASE[2]) * mix);
+      ctx.fillStyle = "rgba(" + r + ", " + g + ", " + b + ", " + (0.52 + 0.46 * mix).toFixed(3) + ")";
+      ctx.fill();
+    }
+  }
+
+  function frame(now) {
+    const time = now / 1000;
+    const dt = lastFrame ? Math.min(2.6, (now - lastFrame) / 16.6667) : 1;
+    lastFrame = now;
+    update(dt, time);
+    draw(time);
+    raf = requestAnimationFrame(frame);
+  }
+
+  function start() {
+    if (raf || reduced() || !visible) return;
+    lastFrame = 0;
+    raf = requestAnimationFrame(frame);
+  }
+
+  function stop() {
+    if (!raf) return;
+    cancelAnimationFrame(raf);
+    raf = 0;
+  }
+
+  const localPoint = (event) => {
+    const rect = canvas.getBoundingClientRect();
+    return { x: event.clientX - rect.left, y: event.clientY - rect.top };
+  };
+
+  stage.addEventListener("pointermove", (event) => {
+    if (reduced()) return;
+    const point = localPoint(event);
+    pointer.x = point.x;
+    pointer.y = point.y;
+    pointer.active = true;
+  });
+
+  stage.addEventListener("pointerleave", () => {
+    pointer.active = false;
+  });
+
+  stage.addEventListener("pointerdown", (event) => {
+    if (reduced()) return;
+    const point = localPoint(event);
+    pointer.x = point.x;
+    pointer.y = point.y;
+    pointer.active = true;
+    rings.push({
+      x: point.x,
+      y: point.y,
+      t: nowSeconds(),
+      speed: Math.max(420, width * 0.5),
+      width: gap * 3.2,
+      strength: gap * 4.2,
+      life: 1.15,
+    });
+  });
+
+  reducedQuery.addEventListener?.("change", () => {
+    if (reduced()) {
+      stop();
+      rings = [];
+      draw(nowSeconds());
+    } else {
+      start();
+    }
+  });
+
+  if ("IntersectionObserver" in window) {
+    new IntersectionObserver(
+      (entries) => {
+        visible = entries[0].isIntersecting;
+        if (visible) start();
+        else stop();
+      },
+      { rootMargin: "240px 0px" },
+    ).observe(stage);
+  }
+
+  let resizeTimer = 0;
+  window.addEventListener("resize", () => {
+    window.clearTimeout(resizeTimer);
+    resizeTimer = window.setTimeout(build, 160);
+  });
+
+  build();
+  start();
+
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(() => {
+      build();
+      if (reduced()) draw(nowSeconds());
+    });
+  }
+})();
+</script>
+
+<!-- Vanilla blur-reveal for hero headings -->
+<style id="br-styles">
+  .br-char{display:inline-block;opacity:0;filter:blur(12px);transform:translateY(10px)}
+  .br-char.revealed{opacity:1;filter:blur(0);transform:translateY(0);transition:opacity 300ms ease-out,filter 300ms ease-out,transform 300ms ease-out}
+  @media (prefers-reduced-motion:reduce){.br-char{opacity:1;filter:none;transform:none;transition:none}}
+</style>
+<script>
+(() => {
+  const reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
+  if (reduced.matches) return;
+
+  const targets = [
+    document.getElementById("hero-name-1"),
+    document.getElementById("hero-name-2"),
+  ].filter(Boolean);
+
+  if (!targets.length) return;
+
+  const STAGGER = 0.03;
+
+  function split(el) {
+    const text = el.textContent.trim();
+    el.innerHTML = "";
+    el.style.display = "inline-block";
+    el.style.whiteSpace = "nowrap";
+
+    const chars = text.split("").map((ch, i) => {
+      const span = document.createElement("span");
+      span.className = "br-char";
+      span.textContent = ch === " " ? "\u00A0" : ch;
+      span.style.transitionDelay = `${(i * STAGGER).toFixed(3)}s`;
+      el.appendChild(span);
+      return span;
+    });
+
+    return chars;
+  }
+
+  const allChars = targets.flatMap(split);
+
+  function check() {
+    allChars.forEach((span) => {
+      const rect = span.getBoundingClientRect();
+      if (rect.top < window.innerHeight * 0.9) {
+        span.classList.add("revealed");
+      }
+    });
+  }
+
+  check();
+  window.addEventListener("scroll", check, { passive: true });
+  window.addEventListener("resize", check, { passive: true });
+})();
+</script>
+
+<!-- Text block animation (21st.dev / daiwiikharihar), vanilla build for this static page -->
+<style id="tba-styles">
+  .tba-mask{position:relative;display:block}
+  .tba-mask>.tba-line{position:relative;display:block}
+  .tba-block{position:absolute;left:0;right:0;top:-0.14em;bottom:-0.14em;z-index:2;pointer-events:none;background-color:var(--tba-color,#455ce9);transform:scaleX(0);transform-origin:left center;will-change:transform}
+  @media (prefers-reduced-motion:reduce){.tba-block{display:none}}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+<script>
+(() => {
+  if (!window.gsap || !window.SplitText) return;
+
+  const reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
+  if (reduced.matches) return;
+
+  gsap.registerPlugin(SplitText);
+
+  const SELECTOR = "main h2, main h3, main h4, main p, footer h2, footer p";
+  const COLORS = ["#455ce9", "#ffb692", "#34d399", "#f59e0b", "#ec4899", "#8b5cf6", "#06b6d4"];
+  const DEFAULT_DURATION = 0.6;
+  const DEFAULT_STAGGER = 0.08;
+  const entries = [];
+  let byElement = new WeakMap();
+  let observer = null;
+  let lastWidth = window.innerWidth;
+  let colorIndex = 0;
+
+  function supported(el) {
+    if (el.closest("[data-tba='off']") || el.dataset.tba === "off") return false;
+    if (!el.textContent.trim()) return false;
+    if (el.querySelector("div, section, ul, ol, li, figure, img, video, canvas, svg, form, table")) return false;
+    return true;
+  }
+
+  function build(el) {
+    if (!supported(el)) return;
+
+    const color = el.dataset.tbaColor || COLORS[colorIndex++ % COLORS.length];
+    const duration = Number.parseFloat(el.dataset.tbaDuration || "") || DEFAULT_DURATION;
+    const parsedStagger = Number.parseFloat(el.dataset.tbaStagger || "");
+    const stagger = Number.isFinite(parsedStagger) ? parsedStagger : DEFAULT_STAGGER;
+    const delay = Number.parseFloat(el.dataset.tbaDelay || "") || 0;
+
+    const split = new SplitText(el, { type: "lines", linesClass: "tba-line" });
+    const lines = split.lines;
+    if (!lines.length) {
+      split.revert();
+      return;
+    }
+
+    const blocks = [];
+    lines.forEach((line) => {
+      const mask = document.createElement("div");
+      mask.className = "tba-mask";
+      line.parentNode.insertBefore(mask, line);
+      mask.appendChild(line);
+
+      const block = document.createElement("div");
+      block.className = "tba-block";
+      block.style.setProperty("--tba-color", color);
+      block.setAttribute("aria-hidden", "true");
+      mask.appendChild(block);
+      blocks.push(block);
+    });
+
+    gsap.set(lines, { opacity: 0 });
+
+    const timeline = gsap.timeline({ defaults: { ease: "expo.inOut" }, delay, paused: true });
+    timeline
+      .to(blocks, { scaleX: 1, duration, stagger, transformOrigin: "left center" })
+      .set(lines, { opacity: 1, stagger }, `<${duration}`)
+      .to(blocks, { scaleX: 0, duration, stagger, transformOrigin: "right center" }, "<0.02");
+
+    const entry = { el, split, timeline, played: false };
+    entries.push(entry);
+    byElement.set(el, entry);
+
+    const rect = el.getBoundingClientRect();
+    if (rect.bottom <= 0 || rect.top < window.innerHeight * 0.85) {
+      entry.played = true;
+      timeline.progress(1);
+    }
+  }
+
+  function observe() {
+    if (!("IntersectionObserver" in window)) {
+      entries.forEach((entry) => {
+        if (entry.played) return;
+        entry.played = true;
+        entry.timeline.progress(1);
+      });
+      return;
+    }
+
+    observer = new IntersectionObserver(
+      (records) => {
+        for (const record of records) {
+          if (!record.isIntersecting) continue;
+          const entry = byElement.get(record.target);
+          observer.unobserve(record.target);
+          if (!entry || entry.played) continue;
+          entry.played = true;
+          entry.timeline.play(0);
+        }
+      },
+      { rootMargin: "0px 0px -15% 0px", threshold: 0 },
+    );
+
+    entries.forEach((entry) => {
+      if (!entry.played) observer.observe(entry.el);
+    });
+  }
+
+  let sweepQueued = false;
+  function sweep() {
+    sweepQueued = false;
+    const limit = window.innerHeight * 0.85;
+    for (const entry of entries) {
+      if (entry.played) continue;
+      const rect = entry.el.getBoundingClientRect();
+      if (rect.top >= limit) continue;
+      entry.played = true;
+      observer?.unobserve(entry.el);
+      if (rect.bottom <= 0) entry.timeline.progress(1);
+      else entry.timeline.play(0);
+    }
+  }
+
+  function destroy() {
+    observer?.disconnect();
+    observer = null;
+    byElement = new WeakMap();
+    entries.forEach((entry) => {
+      entry.timeline.kill();
+      entry.split.revert();
+    });
+    entries.length = 0;
+  }
+
+  function init() {
+    destroy();
+    document.querySelectorAll(SELECTOR).forEach(build);
+    observe();
+  }
+
+  reduced.addEventListener?.("change", (event) => {
+    if (event.matches) destroy();
+    else init();
+  });
+
+  let resizeTimer = 0;
+  window.addEventListener("resize", () => {
+    window.clearTimeout(resizeTimer);
+    resizeTimer = window.setTimeout(() => {
+      const width = window.innerWidth;
+      if (width === lastWidth) return;
+      lastWidth = width;
+      init();
+    }, 250);
+  });
+
+  window.addEventListener(
+    "scroll",
+    () => {
+      if (sweepQueued) return;
+      sweepQueued = true;
+      requestAnimationFrame(sweep);
+    },
+    { passive: true },
+  );
+
+  const start = () => requestAnimationFrame(init);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(start);
+  else start();
+})();
+</script>
+
+<!-- ASCII schlieren hero background (vanilla build of 21st.dev / nikolas-sapa) -->
+<script>
+(() => {
+  const canvas = document.getElementById("schlieren-canvas");
+  const hero = document.getElementById("hero-section");
+  if (!canvas || !hero) return;
+
+  const ctx = canvas.getContext("2d", { alpha: true });
+  if (!ctx) return;
+
+  const reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
+  const CHARS = " .:-=+*#%@";
+  const GLYPH_COLOR = "255,255,255";
+  const TINT_COLOR = "255,182,146";
+  const pointer = { x: 0.5, y: 0.5, angle: 0.6, target: 0.6 };
+  let width = 0, height = 0, dpr = 1;
+  let cols = 0, rows = 0, cell = 10;
+  let raf = 0, last = 0, visible = true;
+
+  function hash(x, y) {
+    const n = Math.sin(x * 127.1 + y * 311.7) * 43758.5453123;
+    return n - Math.floor(n);
+  }
+
+  function noise2(x, y) {
+    const xi = Math.floor(x), yi = Math.floor(y);
+    const xf = x - xi, yf = y - yi;
+    const u = xf * xf * (3 - 2 * xf);
+    const v = yf * yf * (3 - 2 * yf);
+    const a = hash(xi, yi), b = hash(xi + 1, yi);
+    const c = hash(xi, yi + 1), d = hash(xi + 1, yi + 1);
+    return (a * (1 - u) + b * u) * (1 - v) + (c * (1 - u) + d * u) * v;
+  }
+
+  function resize() {
+    const rect = hero.getBoundingClientRect();
+    width = Math.max(1, Math.round(rect.width));
+    height = Math.max(1, Math.round(rect.height));
+    dpr = Math.min(window.devicePixelRatio || 1, 2);
+    canvas.width = Math.round(width * dpr);
+    canvas.height = Math.round(height * dpr);
+    canvas.style.width = width + "px";
+    canvas.style.height = height + "px";
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    cell = width < 640 ? 9 : width < 1100 ? 10 : 11;
+    cols = Math.ceil(width / cell);
+    rows = Math.ceil(height / cell);
+    ctx.font = `${cell}px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace`;
+    ctx.textBaseline = "top";
+    ctx.textAlign = "left";
+  }
+
+  function draw(time) {
+    const t = time * 0.001;
+    const angle = pointer.angle;
+    const cos = Math.cos(angle), sin = Math.sin(angle);
+
+    ctx.clearRect(0, 0, width, height);
+
+    // Bucket positions by glyph so we only change fillStyle a handful of times.
+    const buckets = Array.from({ length: CHARS.length }, () => []);
+    const warm = [];
+
+    for (let gy = 0; gy < rows; gy++) {
+      const y = gy / rows;
+
+      // Rising thermal plume: meanders as it climbs, pulses with time.
+      const plumeX =
+        0.5 +
+        0.075 * Math.sin(y * 3.1 - t * 0.55) +
+        0.028 * Math.sin(y * 6.7 + t * 0.9);
+      const plumeWidth = 0.06 + 0.06 * y;
+      const bandPhase = y * 26 - t * 0.9;
+
+      for (let gx = 0; gx < cols; gx++) {
+        const x = gx / cols;
+
+        // Horizontal distance from the meandering plume core.
+        const d = (x - plumeX) / plumeWidth;
+        let plumeValue = Math.exp(-0.5 * d * d) * (0.45 + 0.55 * Math.sin(y * 7.5 - t * 1.4 + d));
+
+        // Shear layer: thin bright bands stretched across the plume.
+        const shear = Math.pow(Math.abs(Math.sin(bandPhase + Math.sin(x * 5.5 + t * 0.4) * 0.9)), 9);
+        const shearWeight = Math.exp(-Math.pow((x - plumeX) / (plumeWidth * 2.6), 2));
+        let value = plumeValue * 0.8 + shear * shearWeight * 1.45;
+
+        // Knife-edge gradient rotated by the pointer.
+        const g = cos * (x - 0.5) + sin * (y - 0.5);
+        value *= 0.55 + 0.9 * (g + 0.55);
+
+        // Slow drifting grain so bands feel optical, not mechanical.
+        value += (noise2(x * 6 + t * 0.12, y * 9 - t * 0.08) - 0.5) * 0.16;
+        value = Math.max(0, Math.min(1, value));
+
+        if (value < 0.12) continue;
+
+        const idx = Math.min(CHARS.length - 1, Math.round(Math.pow(value, 0.75) * (CHARS.length - 1)));
+        if (idx <= 0) continue;
+
+        const cx = gx * cell;
+        const cy = gy * cell;
+        buckets[idx].push(cx, cy);
+
+        if (value > 0.62 && noise2(gx * 3.3, gy * 2.7 + t) > 0.82) warm.push(cx, cy);
+      }
+    }
+
+    for (let i = 1; i < CHARS.length; i++) {
+      const pts = buckets[i];
+      if (!pts.length) continue;
+      const strength = i / (CHARS.length - 1);
+      ctx.fillStyle = `rgba(${GLYPH_COLOR},${(0.12 + strength * 0.62).toFixed(3)})`;
+      const ch = CHARS[i];
+      for (let p = 0; p < pts.length; p += 2) ctx.fillText(ch, pts[p], pts[p + 1]);
+    }
+
+    if (warm.length) {
+      ctx.fillStyle = `rgba(${TINT_COLOR},0.55)`;
+      for (let p = 0; p < warm.length; p += 2) ctx.fillText("@", warm[p], warm[p + 1]);
+    }
+  }
+
+  function loop(now) {
+    raf = 0;
+    if (!visible) return;
+    if (now - last < 45) {
+      raf = requestAnimationFrame(loop);
+      return;
+    }
+    last = now;
+
+    // Ease the knife-edge rotation toward the pointer.
+    pointer.angle += (pointer.target - pointer.angle) * 0.06;
+    draw(now);
+    raf = requestAnimationFrame(loop);
+  }
+
+  function start() {
+    if (raf || reduced.matches) return;
+    raf = requestAnimationFrame(loop);
+  }
+
+  function stop() {
+    if (raf) cancelAnimationFrame(raf);
+    raf = 0;
+  }
+
+  function onPointer(event) {
+    const rect = hero.getBoundingClientRect();
+    pointer.x = (event.clientX - rect.left) / Math.max(1, rect.width);
+    pointer.y = (event.clientY - rect.top) / Math.max(1, rect.height);
+    pointer.target = (pointer.x - 0.5) * 2.2 + (pointer.y - 0.5) * 0.9 + 0.6;
+  }
+
+  function drawStatic() {
+    pointer.angle = pointer.target = 0.6;
+    draw(0);
+  }
+
+  hero.addEventListener("pointermove", onPointer, { passive: true });
+
+  if (reduced.matches) {
+    resize();
+    drawStatic();
+  } else {
+    resize();
+    start();
+  }
+
+  reduced.addEventListener?.("change", () => {
+    if (reduced.matches) {
+      stop();
+      resize();
+      drawStatic();
+    } else {
+      start();
+    }
+  });
+
+  if ("IntersectionObserver" in window) {
+    new IntersectionObserver(
+      (records) => {
+        visible = records[0].isIntersecting;
+        if (visible) start();
+        else stop();
+      },
+      { rootMargin: "160px 0px" },
+    ).observe(hero);
+  }
+
+  let resizeTimer = 0;
+  window.addEventListener("resize", () => {
+    window.clearTimeout(resizeTimer);
+    resizeTimer = window.setTimeout(() => {
+      resize();
+      if (reduced.matches) drawStatic();
+    }, 160);
+  });
+
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(() => {
+      resize();
+      if (reduced.matches) drawStatic();
+    });
+  }
+})();
+</script>
+
+<!-- Mosaic shader background: vanilla WebGL build of 21st.dev / kedhareswer mosaic-shader-background -->
+<style id="ph-shader-styles">
+  #philosophy-section{--ph-sky:#0a0b0e}
+  .ph-shader{position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none;background:
+    radial-gradient(60% 50% at 50% 55%,#2a2b33,rgba(5,5,6,0) 70%),var(--ph-sky)}
+  .ph-shader-canvas{position:absolute;inset:0;display:block;width:100%;height:100%;max-width:none;opacity:0;transition:opacity 1.2s ease}
+  .ph-shader[data-sky="webgl"] .ph-shader-canvas{opacity:1}
+  .ph-shader::before,.ph-shader::after{content:"";position:absolute;left:0;right:0;z-index:2;height:clamp(64px,12%,96px);pointer-events:none}
+  .ph-shader::before{top:0;background:linear-gradient(180deg,#1c1d20,rgba(28,29,32,0))}
+  .ph-shader::after{bottom:0;background:linear-gradient(0deg,#1c1d20,rgba(28,29,32,0))}
+  .ph-shader-shade{position:absolute;inset:0;pointer-events:none;background:
+    linear-gradient(180deg,rgba(5,5,6,.55),rgba(5,5,6,.08) 24%,rgba(5,5,6,.12) 70%,rgba(5,5,6,.7))}
+  @media (prefers-reduced-motion:reduce){
+    .ph-shader-canvas{transition:none}
+  }
+</style>
+<script>
+(() => {
+  const host = document.getElementById("philosophy-shader");
+  const section = document.getElementById("philosophy-section");
+  if (!host || !section) return;
+
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)");
+  const canvas = document.createElement("canvas");
+  canvas.className = "ph-shader-canvas";
+  host.prepend(canvas);
+
+  const fail = () => {
+    host.dataset.sky = "fallback";
+    canvas.remove();
+  };
+
+  const gl = canvas.getContext("webgl", {
+    antialias: false,
+    premultipliedAlpha: false,
+    powerPreference: "low-power",
+  });
+  if (!gl) return fail();
+
+  const VERT = "attribute vec2 aPos;void main(){gl_Position=vec4(aPos,0.0,1.0);}";
+  const FRAG = `precision highp float;
+uniform vec2 uRes;
+uniform float uTime;
+uniform float uMix;
+uniform vec2 uPtr;
+uniform float uPtrOn;
+uniform vec3 uAccent;
+
+float hash(vec2 p){ p = fract(p * vec2(123.34, 456.21)); p += dot(p, p + 45.32); return fract(p.x * p.y); }
+float noise(vec2 p){
+  vec2 i = floor(p); vec2 f = fract(p); vec2 u = f * f * (3.0 - 2.0 * f);
+  return mix(mix(hash(i), hash(i + vec2(1.0, 0.0)), u.x), mix(hash(i + vec2(0.0, 1.0)), hash(i + vec2(1.0, 1.0)), u.x), u.y);
+}
+float fbm(vec2 p){ float v = 0.0; float a = 0.5; for (int i = 0; i < 4; i++){ v += a * noise(p); p = p * 2.03 + 17.0; a *= 0.5; } return v; }
+vec3 spectrum(float x){ return 0.5 + 0.5 * cos(6.28318 * (x + vec3(0.0, 0.33, 0.67))); }
+
+vec3 mosaic(vec2 frag){
+  float cell = max(uRes.y / 30.0, 9.0);
+  vec2 id = floor(frag / cell);
+  vec2 f = fract(frag / cell);
+  vec2 p = (id + 0.5) * cell / uRes.y;
+  float ax = uRes.x / uRes.y;
+  float t = uTime * 0.07;
+  vec2 l1 = vec2(ax * 0.5 + 0.38 * sin(t * 2.1), 0.56 + 0.14 * cos(t * 1.7));
+  vec2 l2 = vec2(ax * 0.5 - 0.55 * cos(t * 1.3), 0.2 + 0.1 * sin(t * 2.3));
+  vec2 l3 = vec2(ax * 0.5 + 0.62 * cos(t * 0.9 + 2.0), 0.86 + 0.08 * sin(t * 1.1));
+  float L = 0.62 * exp(-2.6 * dot(p - l1, p - l1)) + 0.42 * exp(-3.8 * dot(p - l2, p - l2)) + 0.3 * exp(-5.0 * dot(p - l3, p - l3));
+  L += uPtrOn * 0.5 * exp(-14.0 * dot(p - uPtr, p - uPtr));
+  float n = fbm(p * 3.0 + vec2(t * 1.6, -t * 1.1));
+  L *= 0.45 + n;
+  float h = hash(id);
+  L *= 0.8 + 0.28 * sin(uTime * (0.5 + h * 1.4) + h * 40.0);
+  L = clamp(L, 0.0, 1.0);
+  L = floor(L * 8.0 + h * 0.6) / 8.0;
+  vec2 q = abs(f - 0.5);
+  float tile = smoothstep(0.47, 0.41, max(q.x, q.y));
+  vec3 cool = vec3(0.60, 0.70, 0.86);
+  vec3 warm = vec3(0.96, 0.88, 0.78);
+  vec3 col = mix(cool, warm, smoothstep(0.25, 0.75, n)) * L * 0.6;
+  col = mix(col, uAccent * L * 0.75, 0.2 * L);
+  col *= tile * (0.82 + 0.36 * f.y);
+  return col + vec3(0.010, 0.010, 0.014);
+}
+
+vec3 prism(vec2 frag){
+  vec2 p = frag / uRes.y;
+  float t = uTime * 0.05;
+  vec3 col = mix(vec3(0.06, 0.08, 0.13), vec3(0.17, 0.22, 0.31), smoothstep(-0.2, 1.3, p.y + p.x * 0.15));
+  float d = dot(p, normalize(vec2(1.0, -0.58)));
+  float warp = fbm(vec2(d * 1.2 - t, p.y * 0.8 + t)) * 0.7;
+  float bands = d * 2.6 + warp - t * 1.6;
+  float s = fract(bands);
+  float facet = smoothstep(0.0, 0.03, s) * (1.0 - smoothstep(0.03, 0.6, s));
+  vec3 spec = spectrum(bands * 0.31 + p.y * 0.25 + t * 0.5);
+  float beam = exp(-pow((d - (0.55 + 0.35 * sin(t * 2.0))) * 2.4, 2.0));
+  col += spec * facet * (0.09 + 0.3 * beam);
+  col += spec * beam * 0.06;
+  float glint = pow(max(0.0, 1.0 - abs(s - 0.02) * 30.0), 3.0) * beam;
+  col += vec3(0.9, 0.95, 1.0) * glint * 0.22;
+  col += uAccent * 0.03;
+  return col;
+}
+
+vec3 waves(vec2 frag){
+  vec2 p = frag / uRes.y;
+  float t = uTime * 0.11;
+  vec3 col = mix(vec3(0.07, 0.04, 0.08), vec3(0.20, 0.11, 0.19), smoothstep(0.0, 1.1, p.y));
+  for (int i = 0; i < 5; i++){
+    float fi = float(i);
+    float y = 0.52 + (fi - 2.0) * 0.055
+      + 0.16 * sin(p.x * (1.5 + fi * 0.3) + t * (1.0 + fi * 0.22) + fi * 1.7)
+      + 0.05 * sin(p.x * 3.7 - t * 1.4 + fi * 2.3);
+    float dist = abs(p.y - y);
+    vec3 c = spectrum(fi * 0.16 + p.x * 0.12 - t * 0.25);
+    col += c * (exp(-dist * 42.0) * 0.28 + exp(-dist * 7.0) * 0.05);
+  }
+  col *= 0.88 + 0.24 * fbm(p * 2.2 + t);
+  return col;
+}
+
+void main(){
+  vec2 frag = gl_FragCoord.xy;
+  float m = clamp(uMix, 0.0, 2.0);
+  vec3 a; vec3 b = vec3(0.0); float k;
+  if (m < 1.0) { k = m; a = mosaic(frag); if (k > 0.001) b = prism(frag); }
+  else { k = m - 1.0; a = prism(frag); if (k > 0.001) b = waves(frag); }
+  float cell = max(uRes.y / 30.0, 9.0);
+  float thr = hash(floor(frag / cell) + 7.0) * 0.65 + (frag.y / uRes.y) * 0.35;
+  float w = smoothstep(thr - 0.06, thr + 0.06, k * 1.12 - 0.06);
+  vec3 col = mix(a, b, w);
+  vec2 uv = frag / uRes;
+  float vig = smoothstep(1.25, 0.25, length((uv - 0.5) * vec2(1.0, 1.15)));
+  col *= 0.55 + 0.45 * vig;
+  col += (hash(frag + fract(uTime)) - 0.5) / 255.0;
+  gl_FragColor = vec4(col, 1.0);
+}`;
+
+  const compile = (type, source) => {
+    const shader = gl.createShader(type);
+    if (!shader) return null;
+    gl.shaderSource(shader, source);
+    gl.compileShader(shader);
+    if (gl.getShaderParameter(shader, gl.COMPILE_STATUS)) return shader;
+    gl.deleteShader(shader);
+    return null;
+  };
+
+  const vs = compile(gl.VERTEX_SHADER, VERT);
+  const fs = compile(gl.FRAGMENT_SHADER, FRAG);
+  const program = gl.createProgram();
+  if (!vs || !fs || !program) return fail();
+
+  gl.attachShader(program, vs);
+  gl.attachShader(program, fs);
+  gl.linkProgram(program);
+  if (!gl.getProgramParameter(program, gl.LINK_STATUS)) return fail();
+  gl.useProgram(program);
+
+  const buffer = gl.createBuffer();
+  gl.bindBuffer(gl.ARRAY_BUFFER, buffer);
+  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 3, -1, -1, 3]), gl.STATIC_DRAW);
+  const aPos = gl.getAttribLocation(program, "aPos");
+  gl.enableVertexAttribArray(aPos);
+  gl.vertexAttribPointer(aPos, 2, gl.FLOAT, false, 0, 0);
+
+  const U = {
+    res: gl.getUniformLocation(program, "uRes"),
+    time: gl.getUniformLocation(program, "uTime"),
+    mix: gl.getUniformLocation(program, "uMix"),
+    ptr: gl.getUniformLocation(program, "uPtr"),
+    ptrOn: gl.getUniformLocation(program, "uPtrOn"),
+    accent: gl.getUniformLocation(program, "uAccent"),
+  };
+  // "ice" accent from the original component palette.
+  gl.uniform3f(U.accent, 0.55, 0.78, 1.0);
+  host.dataset.sky = "webgl";
+
+  let width = 1;
+  let height = 1;
+  let dirty = true;
+  let visible = true;
+  let pointerOn = 0;
+  let pointerTarget = 0;
+  const pointer = [0.5, 0.5];
+  const startTime = performance.now();
+
+  const draw = () => {
+    gl.uniform2f(U.res, width, height);
+    gl.uniform1f(U.time, reduce.matches ? 12 : (performance.now() - startTime) / 1000);
+    gl.uniform1f(U.mix, 0);
+    gl.uniform2f(U.ptr, pointer[0], pointer[1]);
+    gl.uniform1f(U.ptrOn, reduce.matches ? 0 : pointerOn);
+    dirty = false;
+    gl.drawArrays(gl.TRIANGLES, 0, 3);
+  };
+
+  const resize = () => {
+    const rect = host.getBoundingClientRect();
+    const scale = Math.min(window.devicePixelRatio || 1, 1.5) * 0.75;
+    width = Math.max(1, Math.round(rect.width * scale));
+    height = Math.max(1, Math.round(rect.height * scale));
+    canvas.width = width;
+    canvas.height = height;
+    gl.viewport(0, 0, width, height);
+    dirty = true;
+    if (reduce.matches) draw();
+  };
+  resize();
+
+  const frame = () => {
+    requestAnimationFrame(frame);
+    if (!visible) return;
+    pointerOn += (pointerTarget - pointerOn) * 0.08;
+    if (reduce.matches && !dirty) return;
+    draw();
+  };
+  requestAnimationFrame(frame);
+
+  if ("ResizeObserver" in window) new ResizeObserver(resize).observe(host);
+  window.addEventListener("resize", resize);
+
+  if ("IntersectionObserver" in window) {
+    new IntersectionObserver(
+      (entries) => { visible = entries[0].isIntersecting; },
+      { rootMargin: "140px 0px" },
+    ).observe(host);
+  }
+
+  // The pointer light follows the cursor anywhere over the section text or background.
+  const move = (event) => {
+    const rect = host.getBoundingClientRect();
+    pointer[0] = (event.clientX - rect.left) / rect.height;
+    pointer[1] = (rect.bottom - event.clientY) / rect.height;
+    pointerTarget = 1;
+  };
+  const leave = () => { pointerTarget = 0; };
+  section.addEventListener("pointermove", move);
+  section.addEventListener("pointerleave", leave);
+
+  reduce.addEventListener("change", () => { dirty = true; if (reduce.matches) draw(); });
+})();
+</script>
+
+<!-- Header-2 behaviour: compact scroll state, blur/border/shadow, mobile panel -->
+<style id="header-shell-styles">
+  #site-header{pointer-events:none;--header-bottom:5rem}
+  #header-shell{
+    pointer-events:auto;position:relative;width:100%;max-width:100%;margin:0 auto;
+    background:rgba(28,29,32,.8);
+    -webkit-backdrop-filter:blur(24px);backdrop-filter:blur(24px);
+    border-radius:0;box-shadow:inset 0 0 0 1px transparent;
+    transition:max-width .5s cubic-bezier(.22,1,.36,1),width .5s cubic-bezier(.22,1,.36,1),margin .5s cubic-bezier(.22,1,.36,1),border-radius .5s cubic-bezier(.22,1,.36,1),background-color .35s ease,box-shadow .35s ease;
+    will-change:max-width,width
+  }
+  #header-bar{
+    height:5rem;
+    transition:height .45s cubic-bezier(.22,1,.36,1),padding .45s cubic-bezier(.22,1,.36,1)
+  }
+  #site-header.is-scrolled #header-shell{
+    background:rgba(24,25,28,.86);
+    box-shadow:inset 0 0 0 1px rgba(255,255,255,.12),0 24px 70px -30px rgba(0,0,0,.92)
+  }
+  #site-header.is-menu-open #header-shell{
+    background:rgba(24,25,28,.97);
+    box-shadow:inset 0 0 0 1px rgba(255,255,255,.12)
+  }
+  @media (min-width:768px){
+    #site-header.is-scrolled #header-shell{
+      max-width:1120px;width:calc(100% - 3rem);margin-top:1rem;border-radius:1rem;
+      background:rgba(24,25,28,.76)
+    }
+    #site-header.is-scrolled #header-bar{height:3.5rem;padding-inline:1.25rem}
+  }
+  @media (prefers-reduced-motion:reduce){
+    #header-shell,#header-bar{transition:none}
+  }
+
+  .menu-toggle{
+    display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;
+    width:2.5rem;height:2.5rem;border-radius:9999px;color:#fff;
+    background:rgba(255,255,255,.04);box-shadow:inset 0 0 0 1px rgba(255,255,255,.16);
+    transition:background-color .2s ease,box-shadow .2s ease
+  }
+  .menu-toggle:hover{background:rgba(255,255,255,.09);box-shadow:inset 0 0 0 1px rgba(255,255,255,.28)}
+  .menu-toggle:focus-visible{outline:2px solid #455ce9;outline-offset:2px}
+  .menu-toggle-lines{position:relative;display:block;width:1.05rem;height:.8rem}
+  .menu-line{
+    position:absolute;left:0;width:100%;height:1.5px;border-radius:9999px;background:currentColor;
+    transition:transform .3s cubic-bezier(.22,1,.36,1),opacity .2s ease,top .3s cubic-bezier(.22,1,.36,1),bottom .3s cubic-bezier(.22,1,.36,1)
+  }
+  .menu-line:nth-child(1){top:0}
+  .menu-line:nth-child(2){top:50%;transform:translateY(-50%)}
+  .menu-line:nth-child(3){bottom:0}
+  .menu-toggle[aria-expanded="true"] .menu-line:nth-child(1){top:50%;transform:translateY(-50%) rotate(45deg)}
+  .menu-toggle[aria-expanded="true"] .menu-line:nth-child(2){opacity:0;transform:translateY(-50%) scaleX(.2)}
+  .menu-toggle[aria-expanded="true"] .menu-line:nth-child(3){top:50%;bottom:auto;transform:translateY(-50%) rotate(-45deg)}
+
+  .mobile-menu{
+    position:fixed;left:0;right:0;bottom:0;top:var(--header-bottom,5rem);z-index:10;
+    display:flex;flex-direction:column;overflow:hidden;
+    background:rgba(20,21,24,.94);
+    -webkit-backdrop-filter:blur(24px);backdrop-filter:blur(24px);
+    border-top:1px solid rgba(255,255,255,.1);
+    opacity:0;visibility:hidden;pointer-events:none;
+    transform:translateY(-.5rem) scale(.98);transform-origin:top center;
+    transition:opacity .3s ease,transform .34s cubic-bezier(.22,1,.36,1),visibility 0s linear .34s
+  }
+  .mobile-menu.is-open{
+    opacity:1;visibility:visible;pointer-events:auto;transform:none;
+    transition:opacity .25s ease,transform .34s cubic-bezier(.22,1,.36,1),visibility 0s
+  }
+  .mobile-menu-inner{
+    display:flex;flex:1;min-height:0;flex-direction:column;justify-content:space-between;gap:2rem;
+    overflow-y:auto;overscroll-behavior:contain;
+    padding:clamp(1.25rem,5vh,2.5rem) 1rem calc(1.5rem + env(safe-area-inset-bottom))
+  }
+  .mobile-menu-links{display:flex;flex-direction:column}
+  .mobile-nav-link{
+    display:flex;align-items:baseline;gap:.85rem;
+    padding:.9rem .25rem;border-bottom:1px solid rgba(255,255,255,.08);
+    color:#999d9e;font-family:Inter,ui-sans-serif,system-ui,sans-serif;
+    font-size:clamp(1.75rem,7.5vw,2.75rem);line-height:1.1;font-weight:600;letter-spacing:-.02em;
+    transition:color .2s ease,padding-left .25s ease
+  }
+  .mobile-nav-link:first-child{border-top:1px solid rgba(255,255,255,.08)}
+  .mobile-nav-link:hover,.mobile-nav-link.is-active{color:#fff}
+  .mobile-nav-link.is-active{padding-left:.75rem}
+  .mobile-nav-index{font-size:10px;letter-spacing:.18em;color:#6c7074;font-weight:500;transition:color .2s ease}
+  .mobile-nav-link.is-active .mobile-nav-index{color:#455ce9}
+  .mobile-menu-actions{display:flex;flex-direction:column;gap:.5rem}
+  .mobile-menu-primary,.mobile-menu-secondary{
+    display:inline-flex;align-items:center;justify-content:center;gap:.6rem;width:100%;
+    padding:.9rem 1.25rem;border-radius:9999px;
+    font-family:Inter,ui-sans-serif,system-ui,sans-serif;font-size:14px;font-weight:500;letter-spacing:.05em;
+    transition:background-color .2s ease,box-shadow .2s ease
+  }
+  .mobile-menu-primary{background:#455ce9;color:#fff}
+  .mobile-menu-primary:hover{background:#334bd3}
+  .mobile-menu-secondary{background:#1a1b1e;color:#fff;box-shadow:inset 0 0 0 1px rgba(255,255,255,.2)}
+  .mobile-menu-secondary:hover{background:#494a4d}
+  .mobile-menu-meta{
+    margin:0;font-family:Inter,ui-sans-serif,system-ui,sans-serif;font-size:10px;line-height:1.6;
+    letter-spacing:.18em;text-transform:uppercase;color:#999d9e
+  }
+  @media (min-width:768px){
+    .menu-toggle{display:none!important}
+    .mobile-menu{display:none!important}
+  }
+  @media (prefers-reduced-motion:reduce){
+    .menu-toggle,.menu-line,.mobile-menu,.mobile-nav-link,.mobile-menu-primary,.mobile-menu-secondary{transition:none!important}
+  }
+</style>
+
+<!-- Primary nav: anchor navigation with a sliding active pill -->
+<style id="nav-styles">
+  #site-nav .nav-pill{position:absolute;left:0;top:0;height:100%;width:0;border-radius:9999px;background:#455ce9;z-index:0;pointer-events:none;transition:transform .48s cubic-bezier(.22,1,.36,1),width .48s cubic-bezier(.22,1,.36,1);will-change:transform,width;box-shadow:inset 0 0 0 1px rgba(255,255,255,.06)}
+  #site-nav .nav-link{position:relative;z-index:1;color:#999d9e;transition:color .25s ease;white-space:nowrap}
+  #site-nav .nav-link:hover{color:#ffffff}
+  #site-nav .nav-link.nav-active{color:#ececff}
+  #philosophy-section,#work,#experience,#contact{scroll-margin-top:5rem}
+  @media (prefers-reduced-motion:reduce){
+    #site-nav .nav-pill{transition:none}
+  }
+</style>
+<!-- Header-2 controller: compact on scroll, animated mobile menu, scroll lock -->
+<script>
+(() => {
+  const header = document.getElementById("site-header");
+  const shell = document.getElementById("header-shell");
+  const bar = document.getElementById("header-bar");
+  const toggle = document.getElementById("menu-toggle");
+  const panel = document.getElementById("mobile-menu");
+  if (!header || !shell || !bar || !toggle || !panel) return;
+
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)");
+  const desktop = window.matchMedia("(min-width: 768px)");
+  let open = false;
+  let scrolled = false;
+  let previousOverflow = "";
+  let ticking = false;
+
+  const syncMetrics = () => {
+    const bottom = Math.max(0, Math.round(shell.getBoundingClientRect().bottom));
+    header.style.setProperty("--header-bottom", `${bottom}px`);
+  };
+
+  const setScrolled = () => {
+    const next = window.scrollY > 10 && !open;
+    if (next === scrolled) return;
+    scrolled = next;
+    header.classList.toggle("is-scrolled", scrolled);
+    syncMetrics();
+  };
+
+  const setOpen = (next, restoreFocus = false) => {
+    if (next === open) return;
+    open = next;
+    header.classList.toggle("is-menu-open", open);
+    panel.classList.toggle("is-open", open);
+    panel.setAttribute("aria-hidden", String(!open));
+    toggle.setAttribute("aria-expanded", String(open));
+    toggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+
+    if (open) {
+      previousOverflow = document.body.style.overflow;
+      document.body.style.overflow = "hidden";
+      setScrolled();
+      const first = panel.querySelector(".mobile-nav-link");
+      if (first) requestAnimationFrame(() => first.focus({ preventScroll: true }));
+    } else {
+      document.body.style.overflow = previousOverflow;
+      if (restoreFocus) toggle.focus({ preventScroll: true });
+      syncMetrics();
+      setScrolled();
+    }
+  };
+
+  toggle.addEventListener("click", () => setOpen(!open));
+
+  panel.querySelectorAll("[data-menu-close]").forEach((el) => {
+    el.addEventListener("click", () => setOpen(false));
+  });
+
+  panel.querySelector("[data-menu-back-to-top]")?.addEventListener("click", () => {
+    setOpen(false);
+    window.scrollTo({ top: 0, behavior: reduce.matches ? "auto" : "smooth" });
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (!open) return;
+    if (event.key === "Escape") {
+      event.preventDefault();
+      setOpen(false, true);
+      return;
+    }
+    if (event.key !== "Tab") return;
+    const focusables = [...panel.querySelectorAll("a[href],button:not([disabled])")];
+    if (!focusables.length) return;
+    const first = focusables[0];
+    const last = focusables[focusables.length - 1];
+    if (event.shiftKey && document.activeElement === first) {
+      event.preventDefault();
+      last.focus();
+    } else if (!event.shiftKey && document.activeElement === last) {
+      event.preventDefault();
+      first.focus();
+    }
+  });
+
+  const onDesktopChange = (event) => {
+    if (event.matches && open) setOpen(false);
+    syncMetrics();
+  };
+  if (desktop.addEventListener) desktop.addEventListener("change", onDesktopChange);
+  else desktop.addListener(onDesktopChange);
+
+  const onScroll = () => {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(() => {
+      ticking = false;
+      setScrolled();
+    });
+  };
+  window.addEventListener("scroll", onScroll, { passive: true });
+  window.addEventListener("resize", () => {
+    syncMetrics();
+    if (desktop.matches && open) setOpen(false);
+  });
+  window.addEventListener("load", syncMetrics);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(syncMetrics);
+
+  const onTransitionEnd = (event) => {
+    if (event.target !== shell && event.target !== bar) return;
+    syncMetrics();
+  };
+  shell.addEventListener("transitionend", onTransitionEnd);
+  bar.addEventListener("transitionend", onTransitionEnd);
+
+  if (typeof ResizeObserver !== "undefined") {
+    new ResizeObserver(() => syncMetrics()).observe(shell);
+  }
+
+  syncMetrics();
+  setScrolled();
+})();
+</script>
+
+<!-- Primary nav: anchor navigation with a sliding active pill -->
+<script>
+(() => {
+  const nav = document.getElementById("site-nav");
+  if (!nav) return;
+  const pill = nav.querySelector(".nav-pill");
+  const links = [...nav.querySelectorAll(".nav-link")];
+  const mobileLinks = [...document.querySelectorAll("[data-mobile-nav]")];
+  if (!pill || !links.length) return;
+
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)");
+  const shell = document.getElementById("header-shell");
+  const headerOffset = () => (shell ? shell.getBoundingClientRect().bottom : (document.querySelector("header")?.offsetHeight || 80)) + 8;
+  let active = links.find((link) => link.dataset.path === "work") || links[0];
+  let lockUntil = 0;
+
+  const placePill = (link, animate) => {
+    if (!link) return;
+    if (!animate) pill.style.transition = "none";
+    pill.style.width = `${link.offsetWidth}px`;
+    pill.style.transform = `translateX(${link.offsetLeft}px)`;
+    if (!animate) {
+      void pill.offsetWidth;
+      pill.style.transition = "";
+    }
+  };
+
+  const setActive = (link, animate = true) => {
+    if (!link) return;
+    active = link;
+    const target = link.dataset.target;
+    for (const item of links) {
+      const on = item === link;
+      item.classList.toggle("nav-active", on);
+      if (on) item.setAttribute("aria-current", "page");
+      else item.removeAttribute("aria-current");
+    }
+    for (const item of mobileLinks) {
+      const on = item.dataset.target === target;
+      item.classList.toggle("is-active", on);
+      if (on) item.setAttribute("aria-current", "page");
+      else item.removeAttribute("aria-current");
+    }
+    placePill(link, animate);
+  };
+
+  const linkForTarget = (target) => links.find((link) => link.dataset.target === target) || null;
+
+  const syncFromScroll = () => {
+    if (performance.now() < lockUntil) return;
+    const marker = window.scrollY + headerOffset() + 12;
+    let current = null;
+    let best = -Infinity;
+    for (const link of links) {
+      const target = document.getElementById(link.dataset.target);
+      if (!target) continue;
+      const top = target.getBoundingClientRect().top + window.scrollY;
+      if (top <= marker && top > best) {
+        best = top;
+        current = link;
+      }
+    }
+    if (window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 2) {
+      current = links[links.length - 1];
+    }
+    if (current && current !== active) setActive(current, true);
+  };
+
+  const goTo = (link) => {
+    const target = document.getElementById(link.dataset.target);
+    if (!target) return;
+    setActive(link, true);
+    lockUntil = performance.now() + (reduce.matches ? 0 : 1100);
+    target.scrollIntoView({ behavior: reduce.matches ? "auto" : "smooth", block: "start" });
+    if (history.replaceState) history.replaceState(null, "", `#${target.id}`);
+  };
+
+  for (const link of links) {
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      goTo(link);
+    });
+  }
+
+  for (const link of mobileLinks) {
+    link.addEventListener("click", (event) => {
+      const desktopLink = linkForTarget(link.dataset.target);
+      if (!desktopLink) return;
+      event.preventDefault();
+      goTo(desktopLink);
+    });
+  }
+
+  const reposition = () => { if (active) placePill(active, false); };
+  window.addEventListener("resize", reposition);
+  window.addEventListener("load", reposition);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(reposition);
+
+  if (typeof ResizeObserver !== "undefined") {
+    new ResizeObserver(reposition).observe(nav);
+  }
+
+  let ticking = false;
+  window.addEventListener("scroll", () => {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(() => {
+      ticking = false;
+      syncFromScroll();
+    });
+  }, { passive: true });
+
+  const init = () => {
+    setActive(active, false);
+    syncFromScroll();
+  };
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init, { once: true });
+  else init();
+})();
+</script>
+
+</body></html>
